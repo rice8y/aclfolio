@@ -1,0 +1,168 @@
+# default namespace = ""
+
+# Text formatting
+b = element b { InlineMarkup+ }
+i = element i { InlineMarkup+ }
+u = element u { InlineMarkup+ }
+sc = element sc { InlineMarkup+ }  # small caps
+tt = element tt { InlineMarkup+ }
+a = element a {
+  attribute href { xsd:anyURI } & InlineMarkup+
+}
+markup-url = element url { xsd:anyURI }
+par = element par { empty }  # paragraph break
+fixed-case = element fixed-case { InlineMarkup+ }
+tex-math = element tex-math { text }
+InlineMarkup = text | b | i | u | sc | tt | a | markup-url | fixed-case | tex-math
+InlineMarkupText = InlineMarkup+
+MarkupText = (InlineMarkup | par)+
+
+# Authors
+first = element first { xsd:string { pattern="(\S(.*\S)?)?" } }
+last = element last { xsd:string { pattern="\S(.*\S)?" } }
+affiliation = element affiliation { text }
+Variant = element variant { attribute script { xsd:string }, (first? & last) }
+# Store bare 16-digit hyphenated ORCID iD with checksum (last char may be X)
+OrcidId = xsd:string { pattern="([0-9]{4}-){3}[0-9]{3}[0-9X]" }
+# OpenReview profile ID, e.g. "~Jane_Doe1" (names may contain Unicode letters)
+OpenReviewId = xsd:string { pattern="~\S+" }
+
+Person =
+  attribute id { xsd:NCName }?,
+  attribute orcid { OrcidId }?,
+  attribute openreview { OpenReviewId }?,
+  (first? & last & Variant? & affiliation?)
+
+local-filename = xsd:string { pattern="[A-Za-z0-9._\-]+" }
+bibtex-key = xsd:string { pattern="[A-Za-z0-9\-]+" }
+checksum = attribute hash { xsd:string {minLength="8" maxLength="8" pattern="[0-9a-f]*"} }
+url = element url {
+  attribute type { xsd:NCName }? & xsd:anyURI
+}
+pdf = element pdf { empty, checksum }
+attachment = element attachment {
+    attribute type { xsd:NCName }?,
+    checksum,
+    local-filename
+}
+
+Revision = element revision {
+  attribute id { xsd:positiveInteger },
+  attribute date { xsd:date }?,
+  checksum,
+  text
+}
+
+Talk = element talk {
+  attribute type { xsd:string }?,
+  (element title { InlineMarkupText }
+   & element speaker { Person }*
+   & url?
+  )
+ }
+
+Paper = element paper {
+  attribute id { xsd:positiveInteger },
+  attribute ingest-date { xsd:date }?,
+  attribute type { xsd:string }?,
+  (element abstract { MarkupText }?
+   & attachment*
+   & element bibkey { bibtex-key }
+   & element author { Person }*
+   & element doi { xsd:anyURI }?
+   & element editor { Person }*
+   & Revision*
+   & element erratum {
+       attribute id { xsd:positiveInteger },
+       attribute date { xsd:date }?,
+       checksum
+     }*
+   & element retracted {
+       attribute date { xsd:date },
+       text
+     }?
+   & element removed {
+       attribute date { xsd:date },
+       text
+     }?
+   & element issue { xsd:nonNegativeInteger }?
+   & element journal { text }?
+   & element mrf {
+       attribute src { xsd:NCName },
+       xsd:NCName
+     }?
+   & element note { text }?
+   & element pages { text }?
+   & element title { InlineMarkupText }
+   & pdf?
+   & url*
+   & element video {
+       attribute href { xsd:anyURI },
+       attribute permission { xsd:boolean }?
+     }*
+   & element language { xsd:language }?
+   & element month { text }?
+   & element award {
+       attribute name { text },
+       text
+     }*
+   )
+}
+Meta = element meta {
+  (element booktitle { InlineMarkupText }
+   & element shortbooktitle { InlineMarkupText }?
+   & element editor { Person }*
+   & element publisher { text }?
+   & element address { text }?
+   & element month { text }?
+   & element year { xsd:gYear }
+   & element isbn { xsd:NMTOKEN }?
+   & pdf?
+   & url*
+   & element doi { xsd:anyURI }?
+   & element sig { text }*
+   & element venue { text }+
+   & element journal-volume { xsd:string }?
+   & element journal-issue { xsd:string }?
+   & element journal-title { xsd:string }?
+  )
+}
+Frontmatter = element frontmatter {
+  (pdf?
+   & url*
+   & element pages { text }?
+   & element bibkey { bibtex-key }
+   & Revision*
+   & attachment*
+   & element doi { xsd:anyURI }?
+  )
+}
+Volume = element volume {
+  attribute id { xsd:string },
+  attribute type { "journal" | "proceedings" },
+  attribute ingest-date { xsd:date }?,
+  Meta,
+  Frontmatter?,
+  Paper*
+}
+Event = element event {
+  attribute id { xsd:string },
+  (element meta {
+    (element title { InlineMarkupText }?
+     & element location { text }?
+     & element dates { text }?
+    )
+  }?
+   & element links { url* }?
+   & Talk*
+   & element colocated {
+       element volume-id { text }*
+     }?
+ )
+}
+Collection = element collection {
+  attribute id { xsd:string },
+  Volume*,
+  Event?
+}
+start = Collection

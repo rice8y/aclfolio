@@ -1,0 +1,1466 @@
+{
+  "b": {
+    "op": "element",
+    "name": "b",
+    "child": {
+      "op": "oneOrMore",
+      "child": {
+        "op": "ref",
+        "name": "InlineMarkup"
+      }
+    }
+  },
+  "i": {
+    "op": "element",
+    "name": "i",
+    "child": {
+      "op": "oneOrMore",
+      "child": {
+        "op": "ref",
+        "name": "InlineMarkup"
+      }
+    }
+  },
+  "u": {
+    "op": "element",
+    "name": "u",
+    "child": {
+      "op": "oneOrMore",
+      "child": {
+        "op": "ref",
+        "name": "InlineMarkup"
+      }
+    }
+  },
+  "sc": {
+    "op": "element",
+    "name": "sc",
+    "child": {
+      "op": "oneOrMore",
+      "child": {
+        "op": "ref",
+        "name": "InlineMarkup"
+      }
+    }
+  },
+  "tt": {
+    "op": "element",
+    "name": "tt",
+    "child": {
+      "op": "oneOrMore",
+      "child": {
+        "op": "ref",
+        "name": "InlineMarkup"
+      }
+    }
+  },
+  "a": {
+    "op": "element",
+    "name": "a",
+    "child": {
+      "op": "interleave",
+      "left": {
+        "op": "attribute",
+        "name": "href",
+        "child": {
+          "op": "data",
+          "name": "anyURI",
+          "params": {}
+        }
+      },
+      "right": {
+        "op": "oneOrMore",
+        "child": {
+          "op": "ref",
+          "name": "InlineMarkup"
+        }
+      }
+    }
+  },
+  "markup-url": {
+    "op": "element",
+    "name": "url",
+    "child": {
+      "op": "data",
+      "name": "anyURI",
+      "params": {}
+    }
+  },
+  "par": {
+    "op": "element",
+    "name": "par",
+    "child": {
+      "op": "empty"
+    }
+  },
+  "fixed-case": {
+    "op": "element",
+    "name": "fixed-case",
+    "child": {
+      "op": "oneOrMore",
+      "child": {
+        "op": "ref",
+        "name": "InlineMarkup"
+      }
+    }
+  },
+  "tex-math": {
+    "op": "element",
+    "name": "tex-math",
+    "child": {
+      "op": "text"
+    }
+  },
+  "InlineMarkup": {
+    "op": "choice",
+    "left": {
+      "op": "text"
+    },
+    "right": {
+      "op": "choice",
+      "left": {
+        "op": "ref",
+        "name": "b"
+      },
+      "right": {
+        "op": "choice",
+        "left": {
+          "op": "ref",
+          "name": "i"
+        },
+        "right": {
+          "op": "choice",
+          "left": {
+            "op": "ref",
+            "name": "u"
+          },
+          "right": {
+            "op": "choice",
+            "left": {
+              "op": "ref",
+              "name": "sc"
+            },
+            "right": {
+              "op": "choice",
+              "left": {
+                "op": "ref",
+                "name": "tt"
+              },
+              "right": {
+                "op": "choice",
+                "left": {
+                  "op": "ref",
+                  "name": "a"
+                },
+                "right": {
+                  "op": "choice",
+                  "left": {
+                    "op": "ref",
+                    "name": "markup-url"
+                  },
+                  "right": {
+                    "op": "choice",
+                    "left": {
+                      "op": "ref",
+                      "name": "fixed-case"
+                    },
+                    "right": {
+                      "op": "ref",
+                      "name": "tex-math"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "InlineMarkupText": {
+    "op": "oneOrMore",
+    "child": {
+      "op": "ref",
+      "name": "InlineMarkup"
+    }
+  },
+  "MarkupText": {
+    "op": "oneOrMore",
+    "child": {
+      "op": "choice",
+      "left": {
+        "op": "ref",
+        "name": "InlineMarkup"
+      },
+      "right": {
+        "op": "ref",
+        "name": "par"
+      }
+    }
+  },
+  "first": {
+    "op": "element",
+    "name": "first",
+    "child": {
+      "op": "data",
+      "name": "string",
+      "params": {
+        "pattern": "(\\S(.*\\S)?)?"
+      }
+    }
+  },
+  "last": {
+    "op": "element",
+    "name": "last",
+    "child": {
+      "op": "data",
+      "name": "string",
+      "params": {
+        "pattern": "\\S(.*\\S)?"
+      }
+    }
+  },
+  "affiliation": {
+    "op": "element",
+    "name": "affiliation",
+    "child": {
+      "op": "text"
+    }
+  },
+  "Variant": {
+    "op": "element",
+    "name": "variant",
+    "child": {
+      "op": "group",
+      "left": {
+        "op": "attribute",
+        "name": "script",
+        "child": {
+          "op": "data",
+          "name": "string",
+          "params": {}
+        }
+      },
+      "right": {
+        "op": "interleave",
+        "left": {
+          "op": "optional",
+          "child": {
+            "op": "ref",
+            "name": "first"
+          }
+        },
+        "right": {
+          "op": "ref",
+          "name": "last"
+        }
+      }
+    }
+  },
+  "OrcidId": {
+    "op": "data",
+    "name": "string",
+    "params": {
+      "pattern": "([0-9]{4}-){3}[0-9]{3}[0-9X]"
+    }
+  },
+  "OpenReviewId": {
+    "op": "data",
+    "name": "string",
+    "params": {
+      "pattern": "~\\S+"
+    }
+  },
+  "Person": {
+    "op": "group",
+    "left": {
+      "op": "optional",
+      "child": {
+        "op": "attribute",
+        "name": "id",
+        "child": {
+          "op": "data",
+          "name": "NCName",
+          "params": {}
+        }
+      }
+    },
+    "right": {
+      "op": "group",
+      "left": {
+        "op": "optional",
+        "child": {
+          "op": "attribute",
+          "name": "orcid",
+          "child": {
+            "op": "ref",
+            "name": "OrcidId"
+          }
+        }
+      },
+      "right": {
+        "op": "group",
+        "left": {
+          "op": "optional",
+          "child": {
+            "op": "attribute",
+            "name": "openreview",
+            "child": {
+              "op": "ref",
+              "name": "OpenReviewId"
+            }
+          }
+        },
+        "right": {
+          "op": "interleave",
+          "left": {
+            "op": "optional",
+            "child": {
+              "op": "ref",
+              "name": "first"
+            }
+          },
+          "right": {
+            "op": "interleave",
+            "left": {
+              "op": "ref",
+              "name": "last"
+            },
+            "right": {
+              "op": "interleave",
+              "left": {
+                "op": "optional",
+                "child": {
+                  "op": "ref",
+                  "name": "Variant"
+                }
+              },
+              "right": {
+                "op": "optional",
+                "child": {
+                  "op": "ref",
+                  "name": "affiliation"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "local-filename": {
+    "op": "data",
+    "name": "string",
+    "params": {
+      "pattern": "[A-Za-z0-9._\\-]+"
+    }
+  },
+  "bibtex-key": {
+    "op": "data",
+    "name": "string",
+    "params": {
+      "pattern": "[A-Za-z0-9\\-]+"
+    }
+  },
+  "checksum": {
+    "op": "attribute",
+    "name": "hash",
+    "child": {
+      "op": "data",
+      "name": "string",
+      "params": {
+        "minLength": "8",
+        "maxLength": "8",
+        "pattern": "[0-9a-f]*"
+      }
+    }
+  },
+  "url": {
+    "op": "element",
+    "name": "url",
+    "child": {
+      "op": "interleave",
+      "left": {
+        "op": "optional",
+        "child": {
+          "op": "attribute",
+          "name": "type",
+          "child": {
+            "op": "data",
+            "name": "NCName",
+            "params": {}
+          }
+        }
+      },
+      "right": {
+        "op": "data",
+        "name": "anyURI",
+        "params": {}
+      }
+    }
+  },
+  "pdf": {
+    "op": "element",
+    "name": "pdf",
+    "child": {
+      "op": "group",
+      "left": {
+        "op": "empty"
+      },
+      "right": {
+        "op": "ref",
+        "name": "checksum"
+      }
+    }
+  },
+  "attachment": {
+    "op": "element",
+    "name": "attachment",
+    "child": {
+      "op": "group",
+      "left": {
+        "op": "optional",
+        "child": {
+          "op": "attribute",
+          "name": "type",
+          "child": {
+            "op": "data",
+            "name": "NCName",
+            "params": {}
+          }
+        }
+      },
+      "right": {
+        "op": "group",
+        "left": {
+          "op": "ref",
+          "name": "checksum"
+        },
+        "right": {
+          "op": "ref",
+          "name": "local-filename"
+        }
+      }
+    }
+  },
+  "Revision": {
+    "op": "element",
+    "name": "revision",
+    "child": {
+      "op": "group",
+      "left": {
+        "op": "attribute",
+        "name": "id",
+        "child": {
+          "op": "data",
+          "name": "positiveInteger",
+          "params": {}
+        }
+      },
+      "right": {
+        "op": "group",
+        "left": {
+          "op": "optional",
+          "child": {
+            "op": "attribute",
+            "name": "date",
+            "child": {
+              "op": "data",
+              "name": "date",
+              "params": {}
+            }
+          }
+        },
+        "right": {
+          "op": "group",
+          "left": {
+            "op": "ref",
+            "name": "checksum"
+          },
+          "right": {
+            "op": "text"
+          }
+        }
+      }
+    }
+  },
+  "Talk": {
+    "op": "element",
+    "name": "talk",
+    "child": {
+      "op": "group",
+      "left": {
+        "op": "optional",
+        "child": {
+          "op": "attribute",
+          "name": "type",
+          "child": {
+            "op": "data",
+            "name": "string",
+            "params": {}
+          }
+        }
+      },
+      "right": {
+        "op": "interleave",
+        "left": {
+          "op": "element",
+          "name": "title",
+          "child": {
+            "op": "ref",
+            "name": "InlineMarkupText"
+          }
+        },
+        "right": {
+          "op": "interleave",
+          "left": {
+            "op": "zeroOrMore",
+            "child": {
+              "op": "element",
+              "name": "speaker",
+              "child": {
+                "op": "ref",
+                "name": "Person"
+              }
+            }
+          },
+          "right": {
+            "op": "optional",
+            "child": {
+              "op": "ref",
+              "name": "url"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Paper": {
+    "op": "element",
+    "name": "paper",
+    "child": {
+      "op": "group",
+      "left": {
+        "op": "attribute",
+        "name": "id",
+        "child": {
+          "op": "data",
+          "name": "positiveInteger",
+          "params": {}
+        }
+      },
+      "right": {
+        "op": "group",
+        "left": {
+          "op": "optional",
+          "child": {
+            "op": "attribute",
+            "name": "ingest-date",
+            "child": {
+              "op": "data",
+              "name": "date",
+              "params": {}
+            }
+          }
+        },
+        "right": {
+          "op": "group",
+          "left": {
+            "op": "optional",
+            "child": {
+              "op": "attribute",
+              "name": "type",
+              "child": {
+                "op": "data",
+                "name": "string",
+                "params": {}
+              }
+            }
+          },
+          "right": {
+            "op": "interleave",
+            "left": {
+              "op": "optional",
+              "child": {
+                "op": "element",
+                "name": "abstract",
+                "child": {
+                  "op": "ref",
+                  "name": "MarkupText"
+                }
+              }
+            },
+            "right": {
+              "op": "interleave",
+              "left": {
+                "op": "zeroOrMore",
+                "child": {
+                  "op": "ref",
+                  "name": "attachment"
+                }
+              },
+              "right": {
+                "op": "interleave",
+                "left": {
+                  "op": "element",
+                  "name": "bibkey",
+                  "child": {
+                    "op": "ref",
+                    "name": "bibtex-key"
+                  }
+                },
+                "right": {
+                  "op": "interleave",
+                  "left": {
+                    "op": "zeroOrMore",
+                    "child": {
+                      "op": "element",
+                      "name": "author",
+                      "child": {
+                        "op": "ref",
+                        "name": "Person"
+                      }
+                    }
+                  },
+                  "right": {
+                    "op": "interleave",
+                    "left": {
+                      "op": "optional",
+                      "child": {
+                        "op": "element",
+                        "name": "doi",
+                        "child": {
+                          "op": "data",
+                          "name": "anyURI",
+                          "params": {}
+                        }
+                      }
+                    },
+                    "right": {
+                      "op": "interleave",
+                      "left": {
+                        "op": "zeroOrMore",
+                        "child": {
+                          "op": "element",
+                          "name": "editor",
+                          "child": {
+                            "op": "ref",
+                            "name": "Person"
+                          }
+                        }
+                      },
+                      "right": {
+                        "op": "interleave",
+                        "left": {
+                          "op": "zeroOrMore",
+                          "child": {
+                            "op": "ref",
+                            "name": "Revision"
+                          }
+                        },
+                        "right": {
+                          "op": "interleave",
+                          "left": {
+                            "op": "zeroOrMore",
+                            "child": {
+                              "op": "element",
+                              "name": "erratum",
+                              "child": {
+                                "op": "group",
+                                "left": {
+                                  "op": "attribute",
+                                  "name": "id",
+                                  "child": {
+                                    "op": "data",
+                                    "name": "positiveInteger",
+                                    "params": {}
+                                  }
+                                },
+                                "right": {
+                                  "op": "group",
+                                  "left": {
+                                    "op": "optional",
+                                    "child": {
+                                      "op": "attribute",
+                                      "name": "date",
+                                      "child": {
+                                        "op": "data",
+                                        "name": "date",
+                                        "params": {}
+                                      }
+                                    }
+                                  },
+                                  "right": {
+                                    "op": "ref",
+                                    "name": "checksum"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "op": "interleave",
+                            "left": {
+                              "op": "optional",
+                              "child": {
+                                "op": "element",
+                                "name": "retracted",
+                                "child": {
+                                  "op": "group",
+                                  "left": {
+                                    "op": "attribute",
+                                    "name": "date",
+                                    "child": {
+                                      "op": "data",
+                                      "name": "date",
+                                      "params": {}
+                                    }
+                                  },
+                                  "right": {
+                                    "op": "text"
+                                  }
+                                }
+                              }
+                            },
+                            "right": {
+                              "op": "interleave",
+                              "left": {
+                                "op": "optional",
+                                "child": {
+                                  "op": "element",
+                                  "name": "removed",
+                                  "child": {
+                                    "op": "group",
+                                    "left": {
+                                      "op": "attribute",
+                                      "name": "date",
+                                      "child": {
+                                        "op": "data",
+                                        "name": "date",
+                                        "params": {}
+                                      }
+                                    },
+                                    "right": {
+                                      "op": "text"
+                                    }
+                                  }
+                                }
+                              },
+                              "right": {
+                                "op": "interleave",
+                                "left": {
+                                  "op": "optional",
+                                  "child": {
+                                    "op": "element",
+                                    "name": "issue",
+                                    "child": {
+                                      "op": "data",
+                                      "name": "nonNegativeInteger",
+                                      "params": {}
+                                    }
+                                  }
+                                },
+                                "right": {
+                                  "op": "interleave",
+                                  "left": {
+                                    "op": "optional",
+                                    "child": {
+                                      "op": "element",
+                                      "name": "journal",
+                                      "child": {
+                                        "op": "text"
+                                      }
+                                    }
+                                  },
+                                  "right": {
+                                    "op": "interleave",
+                                    "left": {
+                                      "op": "optional",
+                                      "child": {
+                                        "op": "element",
+                                        "name": "mrf",
+                                        "child": {
+                                          "op": "group",
+                                          "left": {
+                                            "op": "attribute",
+                                            "name": "src",
+                                            "child": {
+                                              "op": "data",
+                                              "name": "NCName",
+                                              "params": {}
+                                            }
+                                          },
+                                          "right": {
+                                            "op": "data",
+                                            "name": "NCName",
+                                            "params": {}
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "right": {
+                                      "op": "interleave",
+                                      "left": {
+                                        "op": "optional",
+                                        "child": {
+                                          "op": "element",
+                                          "name": "note",
+                                          "child": {
+                                            "op": "text"
+                                          }
+                                        }
+                                      },
+                                      "right": {
+                                        "op": "interleave",
+                                        "left": {
+                                          "op": "optional",
+                                          "child": {
+                                            "op": "element",
+                                            "name": "pages",
+                                            "child": {
+                                              "op": "text"
+                                            }
+                                          }
+                                        },
+                                        "right": {
+                                          "op": "interleave",
+                                          "left": {
+                                            "op": "element",
+                                            "name": "title",
+                                            "child": {
+                                              "op": "ref",
+                                              "name": "InlineMarkupText"
+                                            }
+                                          },
+                                          "right": {
+                                            "op": "interleave",
+                                            "left": {
+                                              "op": "optional",
+                                              "child": {
+                                                "op": "ref",
+                                                "name": "pdf"
+                                              }
+                                            },
+                                            "right": {
+                                              "op": "interleave",
+                                              "left": {
+                                                "op": "zeroOrMore",
+                                                "child": {
+                                                  "op": "ref",
+                                                  "name": "url"
+                                                }
+                                              },
+                                              "right": {
+                                                "op": "interleave",
+                                                "left": {
+                                                  "op": "zeroOrMore",
+                                                  "child": {
+                                                    "op": "element",
+                                                    "name": "video",
+                                                    "child": {
+                                                      "op": "group",
+                                                      "left": {
+                                                        "op": "attribute",
+                                                        "name": "href",
+                                                        "child": {
+                                                          "op": "data",
+                                                          "name": "anyURI",
+                                                          "params": {}
+                                                        }
+                                                      },
+                                                      "right": {
+                                                        "op": "optional",
+                                                        "child": {
+                                                          "op": "attribute",
+                                                          "name": "permission",
+                                                          "child": {
+                                                            "op": "data",
+                                                            "name": "boolean",
+                                                            "params": {}
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "right": {
+                                                  "op": "interleave",
+                                                  "left": {
+                                                    "op": "optional",
+                                                    "child": {
+                                                      "op": "element",
+                                                      "name": "language",
+                                                      "child": {
+                                                        "op": "data",
+                                                        "name": "language",
+                                                        "params": {}
+                                                      }
+                                                    }
+                                                  },
+                                                  "right": {
+                                                    "op": "interleave",
+                                                    "left": {
+                                                      "op": "optional",
+                                                      "child": {
+                                                        "op": "element",
+                                                        "name": "month",
+                                                        "child": {
+                                                          "op": "text"
+                                                        }
+                                                      }
+                                                    },
+                                                    "right": {
+                                                      "op": "zeroOrMore",
+                                                      "child": {
+                                                        "op": "element",
+                                                        "name": "award",
+                                                        "child": {
+                                                          "op": "group",
+                                                          "left": {
+                                                            "op": "attribute",
+                                                            "name": "name",
+                                                            "child": {
+                                                              "op": "text"
+                                                            }
+                                                          },
+                                                          "right": {
+                                                            "op": "text"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Meta": {
+    "op": "element",
+    "name": "meta",
+    "child": {
+      "op": "interleave",
+      "left": {
+        "op": "element",
+        "name": "booktitle",
+        "child": {
+          "op": "ref",
+          "name": "InlineMarkupText"
+        }
+      },
+      "right": {
+        "op": "interleave",
+        "left": {
+          "op": "optional",
+          "child": {
+            "op": "element",
+            "name": "shortbooktitle",
+            "child": {
+              "op": "ref",
+              "name": "InlineMarkupText"
+            }
+          }
+        },
+        "right": {
+          "op": "interleave",
+          "left": {
+            "op": "zeroOrMore",
+            "child": {
+              "op": "element",
+              "name": "editor",
+              "child": {
+                "op": "ref",
+                "name": "Person"
+              }
+            }
+          },
+          "right": {
+            "op": "interleave",
+            "left": {
+              "op": "optional",
+              "child": {
+                "op": "element",
+                "name": "publisher",
+                "child": {
+                  "op": "text"
+                }
+              }
+            },
+            "right": {
+              "op": "interleave",
+              "left": {
+                "op": "optional",
+                "child": {
+                  "op": "element",
+                  "name": "address",
+                  "child": {
+                    "op": "text"
+                  }
+                }
+              },
+              "right": {
+                "op": "interleave",
+                "left": {
+                  "op": "optional",
+                  "child": {
+                    "op": "element",
+                    "name": "month",
+                    "child": {
+                      "op": "text"
+                    }
+                  }
+                },
+                "right": {
+                  "op": "interleave",
+                  "left": {
+                    "op": "element",
+                    "name": "year",
+                    "child": {
+                      "op": "data",
+                      "name": "gYear",
+                      "params": {}
+                    }
+                  },
+                  "right": {
+                    "op": "interleave",
+                    "left": {
+                      "op": "optional",
+                      "child": {
+                        "op": "element",
+                        "name": "isbn",
+                        "child": {
+                          "op": "data",
+                          "name": "NMTOKEN",
+                          "params": {}
+                        }
+                      }
+                    },
+                    "right": {
+                      "op": "interleave",
+                      "left": {
+                        "op": "optional",
+                        "child": {
+                          "op": "ref",
+                          "name": "pdf"
+                        }
+                      },
+                      "right": {
+                        "op": "interleave",
+                        "left": {
+                          "op": "zeroOrMore",
+                          "child": {
+                            "op": "ref",
+                            "name": "url"
+                          }
+                        },
+                        "right": {
+                          "op": "interleave",
+                          "left": {
+                            "op": "optional",
+                            "child": {
+                              "op": "element",
+                              "name": "doi",
+                              "child": {
+                                "op": "data",
+                                "name": "anyURI",
+                                "params": {}
+                              }
+                            }
+                          },
+                          "right": {
+                            "op": "interleave",
+                            "left": {
+                              "op": "zeroOrMore",
+                              "child": {
+                                "op": "element",
+                                "name": "sig",
+                                "child": {
+                                  "op": "text"
+                                }
+                              }
+                            },
+                            "right": {
+                              "op": "interleave",
+                              "left": {
+                                "op": "oneOrMore",
+                                "child": {
+                                  "op": "element",
+                                  "name": "venue",
+                                  "child": {
+                                    "op": "text"
+                                  }
+                                }
+                              },
+                              "right": {
+                                "op": "interleave",
+                                "left": {
+                                  "op": "optional",
+                                  "child": {
+                                    "op": "element",
+                                    "name": "journal-volume",
+                                    "child": {
+                                      "op": "data",
+                                      "name": "string",
+                                      "params": {}
+                                    }
+                                  }
+                                },
+                                "right": {
+                                  "op": "interleave",
+                                  "left": {
+                                    "op": "optional",
+                                    "child": {
+                                      "op": "element",
+                                      "name": "journal-issue",
+                                      "child": {
+                                        "op": "data",
+                                        "name": "string",
+                                        "params": {}
+                                      }
+                                    }
+                                  },
+                                  "right": {
+                                    "op": "optional",
+                                    "child": {
+                                      "op": "element",
+                                      "name": "journal-title",
+                                      "child": {
+                                        "op": "data",
+                                        "name": "string",
+                                        "params": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Frontmatter": {
+    "op": "element",
+    "name": "frontmatter",
+    "child": {
+      "op": "interleave",
+      "left": {
+        "op": "optional",
+        "child": {
+          "op": "ref",
+          "name": "pdf"
+        }
+      },
+      "right": {
+        "op": "interleave",
+        "left": {
+          "op": "zeroOrMore",
+          "child": {
+            "op": "ref",
+            "name": "url"
+          }
+        },
+        "right": {
+          "op": "interleave",
+          "left": {
+            "op": "optional",
+            "child": {
+              "op": "element",
+              "name": "pages",
+              "child": {
+                "op": "text"
+              }
+            }
+          },
+          "right": {
+            "op": "interleave",
+            "left": {
+              "op": "element",
+              "name": "bibkey",
+              "child": {
+                "op": "ref",
+                "name": "bibtex-key"
+              }
+            },
+            "right": {
+              "op": "interleave",
+              "left": {
+                "op": "zeroOrMore",
+                "child": {
+                  "op": "ref",
+                  "name": "Revision"
+                }
+              },
+              "right": {
+                "op": "interleave",
+                "left": {
+                  "op": "zeroOrMore",
+                  "child": {
+                    "op": "ref",
+                    "name": "attachment"
+                  }
+                },
+                "right": {
+                  "op": "optional",
+                  "child": {
+                    "op": "element",
+                    "name": "doi",
+                    "child": {
+                      "op": "data",
+                      "name": "anyURI",
+                      "params": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Volume": {
+    "op": "element",
+    "name": "volume",
+    "child": {
+      "op": "group",
+      "left": {
+        "op": "attribute",
+        "name": "id",
+        "child": {
+          "op": "data",
+          "name": "string",
+          "params": {}
+        }
+      },
+      "right": {
+        "op": "group",
+        "left": {
+          "op": "attribute",
+          "name": "type",
+          "child": {
+            "op": "choice",
+            "left": {
+              "op": "value",
+              "value": "journal"
+            },
+            "right": {
+              "op": "value",
+              "value": "proceedings"
+            }
+          }
+        },
+        "right": {
+          "op": "group",
+          "left": {
+            "op": "optional",
+            "child": {
+              "op": "attribute",
+              "name": "ingest-date",
+              "child": {
+                "op": "data",
+                "name": "date",
+                "params": {}
+              }
+            }
+          },
+          "right": {
+            "op": "group",
+            "left": {
+              "op": "ref",
+              "name": "Meta"
+            },
+            "right": {
+              "op": "group",
+              "left": {
+                "op": "optional",
+                "child": {
+                  "op": "ref",
+                  "name": "Frontmatter"
+                }
+              },
+              "right": {
+                "op": "zeroOrMore",
+                "child": {
+                  "op": "ref",
+                  "name": "Paper"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Event": {
+    "op": "element",
+    "name": "event",
+    "child": {
+      "op": "group",
+      "left": {
+        "op": "attribute",
+        "name": "id",
+        "child": {
+          "op": "data",
+          "name": "string",
+          "params": {}
+        }
+      },
+      "right": {
+        "op": "interleave",
+        "left": {
+          "op": "optional",
+          "child": {
+            "op": "element",
+            "name": "meta",
+            "child": {
+              "op": "interleave",
+              "left": {
+                "op": "optional",
+                "child": {
+                  "op": "element",
+                  "name": "title",
+                  "child": {
+                    "op": "ref",
+                    "name": "InlineMarkupText"
+                  }
+                }
+              },
+              "right": {
+                "op": "interleave",
+                "left": {
+                  "op": "optional",
+                  "child": {
+                    "op": "element",
+                    "name": "location",
+                    "child": {
+                      "op": "text"
+                    }
+                  }
+                },
+                "right": {
+                  "op": "optional",
+                  "child": {
+                    "op": "element",
+                    "name": "dates",
+                    "child": {
+                      "op": "text"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "op": "interleave",
+          "left": {
+            "op": "optional",
+            "child": {
+              "op": "element",
+              "name": "links",
+              "child": {
+                "op": "zeroOrMore",
+                "child": {
+                  "op": "ref",
+                  "name": "url"
+                }
+              }
+            }
+          },
+          "right": {
+            "op": "interleave",
+            "left": {
+              "op": "zeroOrMore",
+              "child": {
+                "op": "ref",
+                "name": "Talk"
+              }
+            },
+            "right": {
+              "op": "optional",
+              "child": {
+                "op": "element",
+                "name": "colocated",
+                "child": {
+                  "op": "zeroOrMore",
+                  "child": {
+                    "op": "element",
+                    "name": "volume-id",
+                    "child": {
+                      "op": "text"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Collection": {
+    "op": "element",
+    "name": "collection",
+    "child": {
+      "op": "group",
+      "left": {
+        "op": "attribute",
+        "name": "id",
+        "child": {
+          "op": "data",
+          "name": "string",
+          "params": {}
+        }
+      },
+      "right": {
+        "op": "group",
+        "left": {
+          "op": "zeroOrMore",
+          "child": {
+            "op": "ref",
+            "name": "Volume"
+          }
+        },
+        "right": {
+          "op": "optional",
+          "child": {
+            "op": "ref",
+            "name": "Event"
+          }
+        }
+      }
+    }
+  },
+  "#start": {
+    "op": "ref",
+    "name": "Collection"
+  }
+}
