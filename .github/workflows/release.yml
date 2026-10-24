@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      RELEASE_TAG: ${{ github.ref_name }}
+      ASSET_NAME: aclfolio-${{ github.ref_name }}.zip
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Archive tagged source
+        run: |
+          git archive --format=zip \
+            --prefix="aclfolio-${RELEASE_TAG}/" \
+            --output="${RUNNER_TEMP}/${ASSET_NAME}" HEAD
+
+      - name: Publish release asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release upload "$RELEASE_TAG" "${RUNNER_TEMP}/${ASSET_NAME}" --clobber
+          else
+            gh release create "$RELEASE_TAG" "${RUNNER_TEMP}/${ASSET_NAME}" \
+              --verify-tag --title "$RELEASE_TAG" --generate-notes
+          fi
