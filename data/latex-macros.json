@@ -1,0 +1,6242 @@
+{
+  " ": {
+    "args": "",
+    "discard": true,
+    "text": " ",
+    "function": false
+  },
+  "!": {
+    "args": "",
+    "discard": true,
+    "text": "",
+    "function": false
+  },
+  "\"": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "#": {
+    "args": "",
+    "discard": true,
+    "text": "#",
+    "function": false
+  },
+  "$": {
+    "args": "",
+    "discard": true,
+    "text": "$",
+    "function": false
+  },
+  "%": {
+    "args": "",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "&": {
+    "args": "",
+    "discard": true,
+    "text": "&",
+    "function": false
+  },
+  "'": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  ",": {
+    "args": "",
+    "discard": true,
+    "text": " ",
+    "function": false
+  },
+  "-": {
+    "args": "",
+    "discard": true,
+    "text": "­",
+    "function": false
+  },
+  ".": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  ":": {
+    "args": "",
+    "discard": true,
+    "text": " ",
+    "function": false
+  },
+  ";": {
+    "args": "",
+    "discard": true,
+    "text": " ",
+    "function": false
+  },
+  "=": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "AA": {
+    "args": "",
+    "discard": true,
+    "text": "Å",
+    "function": false
+  },
+  "AE": {
+    "args": "",
+    "discard": true,
+    "text": "Æ",
+    "function": false
+  },
+  "Alpha": {
+    "args": "",
+    "discard": true,
+    "text": "Α",
+    "function": false
+  },
+  "Angle": {
+    "args": "",
+    "discard": true,
+    "text": "⦜",
+    "function": false
+  },
+  "Beta": {
+    "args": "",
+    "discard": true,
+    "text": "Β",
+    "function": false
+  },
+  "Bumpeq": {
+    "args": "",
+    "discard": true,
+    "text": "≎",
+    "function": false
+  },
+  "CYRA": {
+    "args": "",
+    "discard": true,
+    "text": "А",
+    "function": false
+  },
+  "CYRABHCH": {
+    "args": "",
+    "discard": true,
+    "text": "Ҽ",
+    "function": false
+  },
+  "CYRABHCHDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ҿ",
+    "function": false
+  },
+  "CYRABHDZE": {
+    "args": "",
+    "discard": true,
+    "text": "Ӡ",
+    "function": false
+  },
+  "CYRABHHA": {
+    "args": "",
+    "discard": true,
+    "text": "Ҩ",
+    "function": false
+  },
+  "CYRAE": {
+    "args": "",
+    "discard": true,
+    "text": "Ӕ",
+    "function": false
+  },
+  "CYRB": {
+    "args": "",
+    "discard": true,
+    "text": "Б",
+    "function": false
+  },
+  "CYRBYUS": {
+    "args": "",
+    "discard": true,
+    "text": "Ѫ",
+    "function": false
+  },
+  "CYRC": {
+    "args": "",
+    "discard": true,
+    "text": "Ц",
+    "function": false
+  },
+  "CYRCH": {
+    "args": "",
+    "discard": true,
+    "text": "Ч",
+    "function": false
+  },
+  "CYRCHLDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ӌ",
+    "function": false
+  },
+  "CYRCHRDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ҷ",
+    "function": false
+  },
+  "CYRCHVCRS": {
+    "args": "",
+    "discard": true,
+    "text": "Ҹ",
+    "function": false
+  },
+  "CYRD": {
+    "args": "",
+    "discard": true,
+    "text": "Д",
+    "function": false
+  },
+  "CYRDJE": {
+    "args": "",
+    "discard": true,
+    "text": "Ђ",
+    "function": false
+  },
+  "CYRDZE": {
+    "args": "",
+    "discard": true,
+    "text": "Ѕ",
+    "function": false
+  },
+  "CYRDZHE": {
+    "args": "",
+    "discard": true,
+    "text": "Џ",
+    "function": false
+  },
+  "CYRE": {
+    "args": "",
+    "discard": true,
+    "text": "Е",
+    "function": false
+  },
+  "CYREREV": {
+    "args": "",
+    "discard": true,
+    "text": "Э",
+    "function": false
+  },
+  "CYRERY": {
+    "args": "",
+    "discard": true,
+    "text": "Ы",
+    "function": false
+  },
+  "CYRF": {
+    "args": "",
+    "discard": true,
+    "text": "Ф",
+    "function": false
+  },
+  "CYRFITA": {
+    "args": "",
+    "discard": true,
+    "text": "Ѳ",
+    "function": false
+  },
+  "CYRG": {
+    "args": "",
+    "discard": true,
+    "text": "Г",
+    "function": false
+  },
+  "CYRGDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ӷ",
+    "function": false
+  },
+  "CYRGDSCHCRS": {
+    "args": "",
+    "discard": true,
+    "text": "Ӻ",
+    "function": false
+  },
+  "CYRGHCRS": {
+    "args": "",
+    "discard": true,
+    "text": "Ғ",
+    "function": false
+  },
+  "CYRGHK": {
+    "args": "",
+    "discard": true,
+    "text": "Ҕ",
+    "function": false
+  },
+  "CYRGUP": {
+    "args": "",
+    "discard": true,
+    "text": "Ґ",
+    "function": false
+  },
+  "CYRH": {
+    "args": "",
+    "discard": true,
+    "text": "Х",
+    "function": false
+  },
+  "CYRHDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ҳ",
+    "function": false
+  },
+  "CYRHHCRS": {
+    "args": "",
+    "discard": true,
+    "text": "Ӿ",
+    "function": false
+  },
+  "CYRHHK": {
+    "args": "",
+    "discard": true,
+    "text": "Ӽ",
+    "function": false
+  },
+  "CYRHRDSN": {
+    "args": "",
+    "discard": true,
+    "text": "Ъ",
+    "function": false
+  },
+  "CYRI": {
+    "args": "",
+    "discard": true,
+    "text": "И",
+    "function": false
+  },
+  "CYRIE": {
+    "args": "",
+    "discard": true,
+    "text": "Є",
+    "function": false
+  },
+  "CYRII": {
+    "args": "",
+    "discard": true,
+    "text": "І",
+    "function": false
+  },
+  "CYRISHRT": {
+    "args": "",
+    "discard": true,
+    "text": "Й",
+    "function": false
+  },
+  "CYRIZH": {
+    "args": "",
+    "discard": true,
+    "text": "Ѵ",
+    "function": false
+  },
+  "CYRJE": {
+    "args": "",
+    "discard": true,
+    "text": "Ј",
+    "function": false
+  },
+  "CYRK": {
+    "args": "",
+    "discard": true,
+    "text": "К",
+    "function": false
+  },
+  "CYRKBEAK": {
+    "args": "",
+    "discard": true,
+    "text": "Ҡ",
+    "function": false
+  },
+  "CYRKDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Қ",
+    "function": false
+  },
+  "CYRKHCRS": {
+    "args": "",
+    "discard": true,
+    "text": "Ҟ",
+    "function": false
+  },
+  "CYRKHK": {
+    "args": "",
+    "discard": true,
+    "text": "Ӄ",
+    "function": false
+  },
+  "CYRKVCRS": {
+    "args": "",
+    "discard": true,
+    "text": "Ҝ",
+    "function": false
+  },
+  "CYRL": {
+    "args": "",
+    "discard": true,
+    "text": "Л",
+    "function": false
+  },
+  "CYRLDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ӆ",
+    "function": false
+  },
+  "CYRLJE": {
+    "args": "",
+    "discard": true,
+    "text": "Љ",
+    "function": false
+  },
+  "CYRM": {
+    "args": "",
+    "discard": true,
+    "text": "М",
+    "function": false
+  },
+  "CYRMDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ӎ",
+    "function": false
+  },
+  "CYRN": {
+    "args": "",
+    "discard": true,
+    "text": "Н",
+    "function": false
+  },
+  "CYRNDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ң",
+    "function": false
+  },
+  "CYRNG": {
+    "args": "",
+    "discard": true,
+    "text": "Ҥ",
+    "function": false
+  },
+  "CYRNHK": {
+    "args": "",
+    "discard": true,
+    "text": "Ӈ",
+    "function": false
+  },
+  "CYRNJE": {
+    "args": "",
+    "discard": true,
+    "text": "Њ",
+    "function": false
+  },
+  "CYRO": {
+    "args": "",
+    "discard": true,
+    "text": "О",
+    "function": false
+  },
+  "CYROTLD": {
+    "args": "",
+    "discard": true,
+    "text": "Ө",
+    "function": false
+  },
+  "CYRP": {
+    "args": "",
+    "discard": true,
+    "text": "П",
+    "function": false
+  },
+  "CYRPHK": {
+    "args": "",
+    "discard": true,
+    "text": "Ҧ",
+    "function": false
+  },
+  "CYRR": {
+    "args": "",
+    "discard": true,
+    "text": "Р",
+    "function": false
+  },
+  "CYRRTICK": {
+    "args": "",
+    "discard": true,
+    "text": "Ҏ",
+    "function": false
+  },
+  "CYRS": {
+    "args": "",
+    "discard": true,
+    "text": "С",
+    "function": false
+  },
+  "CYRSCHWA": {
+    "args": "",
+    "discard": true,
+    "text": "Ә",
+    "function": false
+  },
+  "CYRSDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ҫ",
+    "function": false
+  },
+  "CYRSEMISFTSN": {
+    "args": "",
+    "discard": true,
+    "text": "Ҍ",
+    "function": false
+  },
+  "CYRSFTSN": {
+    "args": "",
+    "discard": true,
+    "text": "Ь",
+    "function": false
+  },
+  "CYRSH": {
+    "args": "",
+    "discard": true,
+    "text": "Ш",
+    "function": false
+  },
+  "CYRSHCH": {
+    "args": "",
+    "discard": true,
+    "text": "Щ",
+    "function": false
+  },
+  "CYRSHHA": {
+    "args": "",
+    "discard": true,
+    "text": "Һ",
+    "function": false
+  },
+  "CYRT": {
+    "args": "",
+    "discard": true,
+    "text": "Т",
+    "function": false
+  },
+  "CYRTDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ҭ",
+    "function": false
+  },
+  "CYRTETSE": {
+    "args": "",
+    "discard": true,
+    "text": "Ҵ",
+    "function": false
+  },
+  "CYRTSHE": {
+    "args": "",
+    "discard": true,
+    "text": "Ћ",
+    "function": false
+  },
+  "CYRU": {
+    "args": "",
+    "discard": true,
+    "text": "У",
+    "function": false
+  },
+  "CYRUSHRT": {
+    "args": "",
+    "discard": true,
+    "text": "Ў",
+    "function": false
+  },
+  "CYRV": {
+    "args": "",
+    "discard": true,
+    "text": "В",
+    "function": false
+  },
+  "CYRY": {
+    "args": "",
+    "discard": true,
+    "text": "Ү",
+    "function": false
+  },
+  "CYRYA": {
+    "args": "",
+    "discard": true,
+    "text": "Я",
+    "function": false
+  },
+  "CYRYAT": {
+    "args": "",
+    "discard": true,
+    "text": "Ѣ",
+    "function": false
+  },
+  "CYRYHCRS": {
+    "args": "",
+    "discard": true,
+    "text": "Ұ",
+    "function": false
+  },
+  "CYRYI": {
+    "args": "",
+    "discard": true,
+    "text": "Ї",
+    "function": false
+  },
+  "CYRYO": {
+    "args": "",
+    "discard": true,
+    "text": "Ё",
+    "function": false
+  },
+  "CYRYU": {
+    "args": "",
+    "discard": true,
+    "text": "Ю",
+    "function": false
+  },
+  "CYRZ": {
+    "args": "",
+    "discard": true,
+    "text": "З",
+    "function": false
+  },
+  "CYRZDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Ҙ",
+    "function": false
+  },
+  "CYRZH": {
+    "args": "",
+    "discard": true,
+    "text": "Ж",
+    "function": false
+  },
+  "CYRZHDSC": {
+    "args": "",
+    "discard": true,
+    "text": "Җ",
+    "function": false
+  },
+  "CYRpalochka": {
+    "args": "",
+    "discard": true,
+    "text": "Ӏ",
+    "function": false
+  },
+  "Cap": {
+    "args": "",
+    "discard": true,
+    "text": "⋒",
+    "function": false
+  },
+  "Chi": {
+    "args": "",
+    "discard": true,
+    "text": "Χ",
+    "function": false
+  },
+  "Citealp": {
+    "args": "*[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "Citealt": {
+    "args": "*[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "Citeauthor": {
+    "args": "*[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "Citep": {
+    "args": "*[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "Citet": {
+    "args": "*[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "Colon": {
+    "args": "",
+    "discard": true,
+    "text": "∷",
+    "function": false
+  },
+  "Cref": {
+    "args": "{",
+    "discard": true,
+    "text": "<Ref>",
+    "function": false
+  },
+  "Cup": {
+    "args": "",
+    "discard": true,
+    "text": "⋓",
+    "function": false
+  },
+  "DH": {
+    "args": "",
+    "discard": true,
+    "text": "Ð",
+    "function": false
+  },
+  "DJ": {
+    "args": "",
+    "discard": true,
+    "text": "Đ",
+    "function": false
+  },
+  "DeclareMathOperator": {
+    "args": "*{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "Delta": {
+    "args": "",
+    "discard": true,
+    "text": "Δ",
+    "function": false
+  },
+  "Digamma": {
+    "args": "",
+    "discard": true,
+    "text": "Ϝ",
+    "function": false
+  },
+  "DownArrowBar": {
+    "args": "",
+    "discard": true,
+    "text": "⤓",
+    "function": false
+  },
+  "DownArrowUpArrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇵",
+    "function": false
+  },
+  "DownLeftRightVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥐",
+    "function": false
+  },
+  "DownLeftTeeVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥞",
+    "function": false
+  },
+  "DownLeftVectorBar": {
+    "args": "",
+    "discard": true,
+    "text": "⥖",
+    "function": false
+  },
+  "DownRightTeeVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥟",
+    "function": false
+  },
+  "DownRightVectorBar": {
+    "args": "",
+    "discard": true,
+    "text": "⥗",
+    "function": false
+  },
+  "Downarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇓",
+    "function": false
+  },
+  "Epsilon": {
+    "args": "",
+    "discard": true,
+    "text": "Ε",
+    "function": false
+  },
+  "Equal": {
+    "args": "",
+    "discard": true,
+    "text": "⩵",
+    "function": false
+  },
+  "Eta": {
+    "args": "",
+    "discard": true,
+    "text": "Η",
+    "function": false
+  },
+  "Gamma": {
+    "args": "",
+    "discard": true,
+    "text": "Γ",
+    "function": false
+  },
+  "H": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "Hwithstroke": {
+    "args": "",
+    "discard": true,
+    "text": "Ħ",
+    "function": false
+  },
+  "IJ": {
+    "args": "",
+    "discard": true,
+    "text": "Ĳ",
+    "function": false
+  },
+  "Ident": {
+    "args": "",
+    "discard": true,
+    "text": "𝕀",
+    "function": false
+  },
+  "Iota": {
+    "args": "",
+    "discard": true,
+    "text": "Ι",
+    "function": false
+  },
+  "Kappa": {
+    "args": "",
+    "discard": true,
+    "text": "Κ",
+    "function": false
+  },
+  "Koppa": {
+    "args": "",
+    "discard": true,
+    "text": "Ϟ",
+    "function": false
+  },
+  "L": {
+    "args": "",
+    "discard": true,
+    "text": "Ł",
+    "function": false
+  },
+  "Lambda": {
+    "args": "",
+    "discard": true,
+    "text": "Λ",
+    "function": false
+  },
+  "LeftDownTeeVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥡",
+    "function": false
+  },
+  "LeftDownVectorBar": {
+    "args": "",
+    "discard": true,
+    "text": "⥙",
+    "function": false
+  },
+  "LeftRightVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥎",
+    "function": false
+  },
+  "LeftTeeVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥚",
+    "function": false
+  },
+  "LeftTriangleBar": {
+    "args": "",
+    "discard": true,
+    "text": "⧏",
+    "function": false
+  },
+  "LeftUpDownVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥑",
+    "function": false
+  },
+  "LeftUpTeeVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥠",
+    "function": false
+  },
+  "LeftUpVectorBar": {
+    "args": "",
+    "discard": true,
+    "text": "⥘",
+    "function": false
+  },
+  "LeftVectorBar": {
+    "args": "",
+    "discard": true,
+    "text": "⥒",
+    "function": false
+  },
+  "Leftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇐",
+    "function": false
+  },
+  "Leftrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇔",
+    "function": false
+  },
+  "Lleftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇚",
+    "function": false
+  },
+  "Longleftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⟸",
+    "function": false
+  },
+  "Longleftrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⟺",
+    "function": false
+  },
+  "Longrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⟹",
+    "function": false
+  },
+  "Lsh": {
+    "args": "",
+    "discard": true,
+    "text": "↰",
+    "function": false
+  },
+  "Mu": {
+    "args": "",
+    "discard": true,
+    "text": "Μ",
+    "function": false
+  },
+  "NG": {
+    "args": "",
+    "discard": true,
+    "text": "Ŋ",
+    "function": false
+  },
+  "NestedGreaterGreater": {
+    "args": "",
+    "discard": true,
+    "text": "⪢",
+    "function": false
+  },
+  "NestedLessLess": {
+    "args": "",
+    "discard": true,
+    "text": "⪡",
+    "function": false
+  },
+  "Nu": {
+    "args": "",
+    "discard": true,
+    "text": "Ν",
+    "function": false
+  },
+  "O": {
+    "args": "",
+    "discard": true,
+    "text": "Ø",
+    "function": false
+  },
+  "OE": {
+    "args": "",
+    "discard": true,
+    "text": "Œ",
+    "function": false
+  },
+  "Omega": {
+    "args": "",
+    "discard": true,
+    "text": "Ω",
+    "function": false
+  },
+  "Omicron": {
+    "args": "",
+    "discard": true,
+    "text": "Ο",
+    "function": false
+  },
+  "Phi": {
+    "args": "",
+    "discard": true,
+    "text": "Φ",
+    "function": false
+  },
+  "Pi": {
+    "args": "",
+    "discard": true,
+    "text": "Π",
+    "function": false
+  },
+  "Psi": {
+    "args": "",
+    "discard": true,
+    "text": "Ψ",
+    "function": false
+  },
+  "RequirePackage": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "ReverseUpEquilibrium": {
+    "args": "",
+    "discard": true,
+    "text": "⥯",
+    "function": false
+  },
+  "Rho": {
+    "args": "",
+    "discard": true,
+    "text": "Ρ",
+    "function": false
+  },
+  "RightDownTeeVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥝",
+    "function": false
+  },
+  "RightDownVectorBar": {
+    "args": "",
+    "discard": true,
+    "text": "⥕",
+    "function": false
+  },
+  "RightTeeVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥛",
+    "function": false
+  },
+  "RightTriangleBar": {
+    "args": "",
+    "discard": true,
+    "text": "⧐",
+    "function": false
+  },
+  "RightUpDownVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥏",
+    "function": false
+  },
+  "RightUpTeeVector": {
+    "args": "",
+    "discard": true,
+    "text": "⥜",
+    "function": false
+  },
+  "RightUpVectorBar": {
+    "args": "",
+    "discard": true,
+    "text": "⥔",
+    "function": false
+  },
+  "RightVectorBar": {
+    "args": "",
+    "discard": true,
+    "text": "⥓",
+    "function": false
+  },
+  "Rightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇒",
+    "function": false
+  },
+  "RoundImplies": {
+    "args": "",
+    "discard": true,
+    "text": "⥰",
+    "function": false
+  },
+  "Rrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇛",
+    "function": false
+  },
+  "Rsh": {
+    "args": "",
+    "discard": true,
+    "text": "↱",
+    "function": false
+  },
+  "RuleDelayed": {
+    "args": "",
+    "discard": true,
+    "text": "⧴",
+    "function": false
+  },
+  "Sampi": {
+    "args": "",
+    "discard": true,
+    "text": "Ϡ",
+    "function": false
+  },
+  "Sigma": {
+    "args": "",
+    "discard": true,
+    "text": "Σ",
+    "function": false
+  },
+  "Stigma": {
+    "args": "",
+    "discard": true,
+    "text": "Ϛ",
+    "function": false
+  },
+  "Subset": {
+    "args": "",
+    "discard": true,
+    "text": "⋐",
+    "function": false
+  },
+  "Supset": {
+    "args": "",
+    "discard": true,
+    "text": "⋑",
+    "function": false
+  },
+  "TH": {
+    "args": "",
+    "discard": true,
+    "text": "Þ",
+    "function": false
+  },
+  "Tau": {
+    "args": "",
+    "discard": true,
+    "text": "Τ",
+    "function": false
+  },
+  "Theta": {
+    "args": "",
+    "discard": true,
+    "text": "Θ",
+    "function": false
+  },
+  "UebungAttachedSolutionTitle": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungAttachedSolutionTitleFont": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungAttachedSolutionTitleTop": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungDueBy": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungDueByLabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungExTitleFont": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungHinweisFont": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungHinweisLabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungHinweiseLabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungLabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungLabelEnum": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungLabelEnumSub": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungLanguage": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungLecture": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungLecturer": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungLoesungFont": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungLogoFile": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungProf": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungSemester": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungSolEquationLabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungSolLabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungStyle": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungSubExTitleFont": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungSubLabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungTextAttachedSolution": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungTipsEquationLabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungTipsFont": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungTipsLabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungTitleCenterVSpacing": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungsblattNumber": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungsblattTitleFont": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungsblattTitleSeries": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungsblattTitleSolutions": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UebungsblattTitleTips": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "UpArrowBar": {
+    "args": "",
+    "discard": true,
+    "text": "⤒",
+    "function": false
+  },
+  "UpEquilibrium": {
+    "args": "",
+    "discard": true,
+    "text": "⥮",
+    "function": false
+  },
+  "Uparrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇑",
+    "function": false
+  },
+  "Updownarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇕",
+    "function": false
+  },
+  "Upsilon": {
+    "args": "",
+    "discard": true,
+    "text": "Υ",
+    "function": false
+  },
+  "VDash": {
+    "args": "",
+    "discard": true,
+    "text": "⊫",
+    "function": false
+  },
+  "Vdash": {
+    "args": "",
+    "discard": true,
+    "text": "⊩",
+    "function": false
+  },
+  "Vert": {
+    "args": "",
+    "discard": true,
+    "text": "‖",
+    "function": false
+  },
+  "Vvdash": {
+    "args": "",
+    "discard": true,
+    "text": "⊪",
+    "function": false
+  },
+  "Xi": {
+    "args": "",
+    "discard": true,
+    "text": "Ξ",
+    "function": false
+  },
+  "Zeta": {
+    "args": "",
+    "discard": true,
+    "text": "Ζ",
+    "function": false
+  },
+  "\\": {
+    "args": "*[",
+    "discard": true,
+    "text": "\n",
+    "function": false
+  },
+  "^": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "_": {
+    "args": "",
+    "discard": true,
+    "text": "_",
+    "function": false
+  },
+  "`": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "aa": {
+    "args": "",
+    "discard": true,
+    "text": "å",
+    "function": false
+  },
+  "acute": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "addcounter": {
+    "args": "[{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "addlength": {
+    "args": "[{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "ae": {
+    "args": "",
+    "discard": true,
+    "text": "æ",
+    "function": false
+  },
+  "aleph": {
+    "args": "",
+    "discard": true,
+    "text": "ℵ",
+    "function": false
+  },
+  "allequal": {
+    "args": "",
+    "discard": true,
+    "text": "≌",
+    "function": false
+  },
+  "alpha": {
+    "args": "",
+    "discard": true,
+    "text": "α",
+    "function": false
+  },
+  "amalg": {
+    "args": "",
+    "discard": true,
+    "text": "⨿",
+    "function": false
+  },
+  "angle": {
+    "args": "",
+    "discard": true,
+    "text": "∠",
+    "function": false
+  },
+  "approx": {
+    "args": "",
+    "discard": true,
+    "text": "≈",
+    "function": false
+  },
+  "approxeq": {
+    "args": "",
+    "discard": true,
+    "text": "≊",
+    "function": false
+  },
+  "approxnotequal": {
+    "args": "",
+    "discard": true,
+    "text": "≆",
+    "function": false
+  },
+  "aquarius": {
+    "args": "",
+    "discard": true,
+    "text": "♒",
+    "function": false
+  },
+  "arccos": {
+    "args": "",
+    "discard": true,
+    "text": "arccos",
+    "function": false
+  },
+  "arccosh": {
+    "args": "",
+    "discard": true,
+    "text": "arccosh",
+    "function": false
+  },
+  "arcsin": {
+    "args": "",
+    "discard": true,
+    "text": "arcsin",
+    "function": false
+  },
+  "arcsinh": {
+    "args": "",
+    "discard": true,
+    "text": "arcsinh",
+    "function": false
+  },
+  "arctan": {
+    "args": "",
+    "discard": true,
+    "text": "arctan",
+    "function": false
+  },
+  "arctanh": {
+    "args": "",
+    "discard": true,
+    "text": "arctanh",
+    "function": false
+  },
+  "aries": {
+    "args": "",
+    "discard": true,
+    "text": "♈",
+    "function": false
+  },
+  "arrowwaveleft": {
+    "args": "",
+    "discard": true,
+    "text": "↜",
+    "function": false
+  },
+  "arrowwaveright": {
+    "args": "",
+    "discard": true,
+    "text": "↝",
+    "function": false
+  },
+  "ast": {
+    "args": "",
+    "discard": true,
+    "text": "∗",
+    "function": false
+  },
+  "asymp": {
+    "args": "",
+    "discard": true,
+    "text": "≍",
+    "function": false
+  },
+  "author": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "autoref": {
+    "args": "{",
+    "discard": true,
+    "text": "<ref>",
+    "function": false
+  },
+  "b": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "backepsilon": {
+    "args": "",
+    "discard": true,
+    "text": "϶",
+    "function": false
+  },
+  "backprime": {
+    "args": "",
+    "discard": true,
+    "text": "‵",
+    "function": false
+  },
+  "backsim": {
+    "args": "",
+    "discard": true,
+    "text": "∽",
+    "function": false
+  },
+  "backsimeq": {
+    "args": "",
+    "discard": true,
+    "text": "⋍",
+    "function": false
+  },
+  "backslash": {
+    "args": "",
+    "discard": true,
+    "text": "\\",
+    "function": false
+  },
+  "bar": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "barwedge": {
+    "args": "",
+    "discard": true,
+    "text": "⌅",
+    "function": false
+  },
+  "because": {
+    "args": "",
+    "discard": true,
+    "text": "∵",
+    "function": false
+  },
+  "beta": {
+    "args": "",
+    "discard": true,
+    "text": "β",
+    "function": false
+  },
+  "beth": {
+    "args": "",
+    "discard": true,
+    "text": "ℶ",
+    "function": false
+  },
+  "between": {
+    "args": "",
+    "discard": true,
+    "text": "≬",
+    "function": false
+  },
+  "bibliography": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "bigcap": {
+    "args": "",
+    "discard": true,
+    "text": "⋂",
+    "function": false
+  },
+  "bigcirc": {
+    "args": "",
+    "discard": true,
+    "text": "◯",
+    "function": false
+  },
+  "bigcup": {
+    "args": "",
+    "discard": true,
+    "text": "⋃",
+    "function": false
+  },
+  "bigoplus": {
+    "args": "",
+    "discard": true,
+    "text": "⊕",
+    "function": false
+  },
+  "bigotimes": {
+    "args": "",
+    "discard": true,
+    "text": "⊗",
+    "function": false
+  },
+  "bigtriangledown": {
+    "args": "",
+    "discard": true,
+    "text": "▽",
+    "function": false
+  },
+  "bigtriangleup": {
+    "args": "",
+    "discard": true,
+    "text": "△",
+    "function": false
+  },
+  "bigvee": {
+    "args": "",
+    "discard": true,
+    "text": "⋁",
+    "function": false
+  },
+  "bigwedge": {
+    "args": "",
+    "discard": true,
+    "text": "⋀",
+    "function": false
+  },
+  "blacklozenge": {
+    "args": "",
+    "discard": true,
+    "text": "⧫",
+    "function": false
+  },
+  "blacksquare": {
+    "args": "",
+    "discard": true,
+    "text": "▪",
+    "function": false
+  },
+  "blacktriangle": {
+    "args": "",
+    "discard": true,
+    "text": "▴",
+    "function": false
+  },
+  "blacktriangledown": {
+    "args": "",
+    "discard": true,
+    "text": "▾",
+    "function": false
+  },
+  "blacktriangleleft": {
+    "args": "",
+    "discard": true,
+    "text": "◂",
+    "function": false
+  },
+  "blacktriangleright": {
+    "args": "",
+    "discard": true,
+    "text": "▸",
+    "function": false
+  },
+  "bowtie": {
+    "args": "",
+    "discard": true,
+    "text": "⋈",
+    "function": false
+  },
+  "boxdot": {
+    "args": "",
+    "discard": true,
+    "text": "⊡",
+    "function": false
+  },
+  "boxframe": {
+    "args": "{{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "boxminus": {
+    "args": "",
+    "discard": true,
+    "text": "⊟",
+    "function": false
+  },
+  "boxplus": {
+    "args": "",
+    "discard": true,
+    "text": "⊞",
+    "function": false
+  },
+  "boxtimes": {
+    "args": "",
+    "discard": true,
+    "text": "⊠",
+    "function": false
+  },
+  "bra": {
+    "args": "{",
+    "discard": true,
+    "text": "⟨%s|",
+    "function": false
+  },
+  "braket": {
+    "args": "{{",
+    "discard": true,
+    "text": "⟨%s|%s⟩",
+    "function": false
+  },
+  "breve": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "bullet": {
+    "args": "",
+    "discard": true,
+    "text": "∙",
+    "function": false
+  },
+  "bumpeq": {
+    "args": "",
+    "discard": true,
+    "text": "≏",
+    "function": false
+  },
+  "c": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "cancer": {
+    "args": "",
+    "discard": true,
+    "text": "♋",
+    "function": false
+  },
+  "cap": {
+    "args": "",
+    "discard": true,
+    "text": "∩",
+    "function": false
+  },
+  "capricornus": {
+    "args": "",
+    "discard": true,
+    "text": "♑",
+    "function": false
+  },
+  "cdot": {
+    "args": "",
+    "discard": true,
+    "text": "·",
+    "function": false
+  },
+  "cdots": {
+    "args": "",
+    "discard": true,
+    "text": "⋯",
+    "function": false
+  },
+  "chapter": {
+    "args": "*[{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "check": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "chi": {
+    "args": "",
+    "discard": true,
+    "text": "χ",
+    "function": false
+  },
+  "circ": {
+    "args": "",
+    "discard": true,
+    "text": "∘",
+    "function": false
+  },
+  "circeq": {
+    "args": "",
+    "discard": true,
+    "text": "≗",
+    "function": false
+  },
+  "circlearrowleft": {
+    "args": "",
+    "discard": true,
+    "text": "↺",
+    "function": false
+  },
+  "circlearrowright": {
+    "args": "",
+    "discard": true,
+    "text": "↻",
+    "function": false
+  },
+  "circledS": {
+    "args": "",
+    "discard": true,
+    "text": "Ⓢ",
+    "function": false
+  },
+  "circledast": {
+    "args": "",
+    "discard": true,
+    "text": "⊛",
+    "function": false
+  },
+  "circledcirc": {
+    "args": "",
+    "discard": true,
+    "text": "⊚",
+    "function": false
+  },
+  "circleddash": {
+    "args": "",
+    "discard": true,
+    "text": "⊝",
+    "function": false
+  },
+  "cite": {
+    "args": "*[[{",
+    "discard": true,
+    "text": "(CITATION)",
+    "function": false
+  },
+  "citealp": {
+    "args": "*[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "citealt": {
+    "args": "*[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "citeauthor": {
+    "args": "*[[{",
+    "discard": true,
+    "text": "(CITATION)",
+    "function": false
+  },
+  "citefullauthor": {
+    "args": "[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "citenum": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "citep": {
+    "args": "*[[{",
+    "discard": true,
+    "text": "(CITATION)",
+    "function": false
+  },
+  "citepalias": {
+    "args": "[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "citet": {
+    "args": "*[[{",
+    "discard": true,
+    "text": "(CITATION)",
+    "function": false
+  },
+  "citetalias": {
+    "args": "[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "citetext": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "citeyear": {
+    "args": "[[{",
+    "discard": true,
+    "text": "(CITATION)",
+    "function": false
+  },
+  "citeyearpar": {
+    "args": "[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "clockoint": {
+    "args": "",
+    "discard": true,
+    "text": "⨏",
+    "function": false
+  },
+  "clwintegral": {
+    "args": "",
+    "discard": true,
+    "text": "∱",
+    "function": false
+  },
+  "color": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "colorbox": {
+    "args": "[{{",
+    "discard": true,
+    "text": "%(3)s",
+    "function": false
+  },
+  "colorlet": {
+    "args": "[{[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "complement": {
+    "args": "",
+    "discard": true,
+    "text": "∁",
+    "function": false
+  },
+  "cong": {
+    "args": "",
+    "discard": true,
+    "text": "≅",
+    "function": false
+  },
+  "coprod": {
+    "args": "",
+    "discard": true,
+    "text": "∐",
+    "function": false
+  },
+  "cos": {
+    "args": "",
+    "discard": true,
+    "text": "cos",
+    "function": false
+  },
+  "cosh": {
+    "args": "",
+    "discard": true,
+    "text": "cosh",
+    "function": false
+  },
+  "cref": {
+    "args": "{",
+    "discard": true,
+    "text": "<ref>",
+    "function": false
+  },
+  "cup": {
+    "args": "",
+    "discard": true,
+    "text": "∪",
+    "function": false
+  },
+  "curlyeqprec": {
+    "args": "",
+    "discard": true,
+    "text": "⋞",
+    "function": false
+  },
+  "curlyeqsucc": {
+    "args": "",
+    "discard": true,
+    "text": "⋟",
+    "function": false
+  },
+  "curlyvee": {
+    "args": "",
+    "discard": true,
+    "text": "⋎",
+    "function": false
+  },
+  "curlywedge": {
+    "args": "",
+    "discard": true,
+    "text": "⋏",
+    "function": false
+  },
+  "curvearrowleft": {
+    "args": "",
+    "discard": true,
+    "text": "↶",
+    "function": false
+  },
+  "curvearrowright": {
+    "args": "",
+    "discard": true,
+    "text": "↷",
+    "function": false
+  },
+  "cyra": {
+    "args": "",
+    "discard": true,
+    "text": "а",
+    "function": false
+  },
+  "cyrabhch": {
+    "args": "",
+    "discard": true,
+    "text": "ҽ",
+    "function": false
+  },
+  "cyrabhchdsc": {
+    "args": "",
+    "discard": true,
+    "text": "ҿ",
+    "function": false
+  },
+  "cyrabhdze": {
+    "args": "",
+    "discard": true,
+    "text": "ӡ",
+    "function": false
+  },
+  "cyrabhha": {
+    "args": "",
+    "discard": true,
+    "text": "ҩ",
+    "function": false
+  },
+  "cyrae": {
+    "args": "",
+    "discard": true,
+    "text": "ӕ",
+    "function": false
+  },
+  "cyrb": {
+    "args": "",
+    "discard": true,
+    "text": "б",
+    "function": false
+  },
+  "cyrbyus": {
+    "args": "",
+    "discard": true,
+    "text": "ѫ",
+    "function": false
+  },
+  "cyrc": {
+    "args": "",
+    "discard": true,
+    "text": "ц",
+    "function": false
+  },
+  "cyrch": {
+    "args": "",
+    "discard": true,
+    "text": "ч",
+    "function": false
+  },
+  "cyrchldsc": {
+    "args": "",
+    "discard": true,
+    "text": "ӌ",
+    "function": false
+  },
+  "cyrchrdsc": {
+    "args": "",
+    "discard": true,
+    "text": "ҷ",
+    "function": false
+  },
+  "cyrchvcrs": {
+    "args": "",
+    "discard": true,
+    "text": "ҹ",
+    "function": false
+  },
+  "cyrd": {
+    "args": "",
+    "discard": true,
+    "text": "д",
+    "function": false
+  },
+  "cyrdje": {
+    "args": "",
+    "discard": true,
+    "text": "ђ",
+    "function": false
+  },
+  "cyrdze": {
+    "args": "",
+    "discard": true,
+    "text": "ѕ",
+    "function": false
+  },
+  "cyrdzhe": {
+    "args": "",
+    "discard": true,
+    "text": "џ",
+    "function": false
+  },
+  "cyre": {
+    "args": "",
+    "discard": true,
+    "text": "е",
+    "function": false
+  },
+  "cyrerev": {
+    "args": "",
+    "discard": true,
+    "text": "э",
+    "function": false
+  },
+  "cyrery": {
+    "args": "",
+    "discard": true,
+    "text": "ы",
+    "function": false
+  },
+  "cyrf": {
+    "args": "",
+    "discard": true,
+    "text": "ф",
+    "function": false
+  },
+  "cyrfita": {
+    "args": "",
+    "discard": true,
+    "text": "ѳ",
+    "function": false
+  },
+  "cyrg": {
+    "args": "",
+    "discard": true,
+    "text": "г",
+    "function": false
+  },
+  "cyrgdsc": {
+    "args": "",
+    "discard": true,
+    "text": "ӷ",
+    "function": false
+  },
+  "cyrgdschcrs": {
+    "args": "",
+    "discard": true,
+    "text": "ӻ",
+    "function": false
+  },
+  "cyrghcrs": {
+    "args": "",
+    "discard": true,
+    "text": "ғ",
+    "function": false
+  },
+  "cyrghk": {
+    "args": "",
+    "discard": true,
+    "text": "ҕ",
+    "function": false
+  },
+  "cyrgup": {
+    "args": "",
+    "discard": true,
+    "text": "ґ",
+    "function": false
+  },
+  "cyrh": {
+    "args": "",
+    "discard": true,
+    "text": "х",
+    "function": false
+  },
+  "cyrhdsc": {
+    "args": "",
+    "discard": true,
+    "text": "ҳ",
+    "function": false
+  },
+  "cyrhhcrs": {
+    "args": "",
+    "discard": true,
+    "text": "ӿ",
+    "function": false
+  },
+  "cyrhhk": {
+    "args": "",
+    "discard": true,
+    "text": "ӽ",
+    "function": false
+  },
+  "cyrhrdsn": {
+    "args": "",
+    "discard": true,
+    "text": "ъ",
+    "function": false
+  },
+  "cyri": {
+    "args": "",
+    "discard": true,
+    "text": "и",
+    "function": false
+  },
+  "cyrie": {
+    "args": "",
+    "discard": true,
+    "text": "є",
+    "function": false
+  },
+  "cyrii": {
+    "args": "",
+    "discard": true,
+    "text": "і",
+    "function": false
+  },
+  "cyrishrt": {
+    "args": "",
+    "discard": true,
+    "text": "й",
+    "function": false
+  },
+  "cyrizh": {
+    "args": "",
+    "discard": true,
+    "text": "ѵ",
+    "function": false
+  },
+  "cyrje": {
+    "args": "",
+    "discard": true,
+    "text": "ј",
+    "function": false
+  },
+  "cyrk": {
+    "args": "",
+    "discard": true,
+    "text": "к",
+    "function": false
+  },
+  "cyrkbeak": {
+    "args": "",
+    "discard": true,
+    "text": "ҡ",
+    "function": false
+  },
+  "cyrkdsc": {
+    "args": "",
+    "discard": true,
+    "text": "қ",
+    "function": false
+  },
+  "cyrkhcrs": {
+    "args": "",
+    "discard": true,
+    "text": "ҟ",
+    "function": false
+  },
+  "cyrkhk": {
+    "args": "",
+    "discard": true,
+    "text": "ӄ",
+    "function": false
+  },
+  "cyrkvcrs": {
+    "args": "",
+    "discard": true,
+    "text": "ҝ",
+    "function": false
+  },
+  "cyrl": {
+    "args": "",
+    "discard": true,
+    "text": "л",
+    "function": false
+  },
+  "cyrldsc": {
+    "args": "",
+    "discard": true,
+    "text": "ӆ",
+    "function": false
+  },
+  "cyrlje": {
+    "args": "",
+    "discard": true,
+    "text": "љ",
+    "function": false
+  },
+  "cyrm": {
+    "args": "",
+    "discard": true,
+    "text": "м",
+    "function": false
+  },
+  "cyrmdsc": {
+    "args": "",
+    "discard": true,
+    "text": "ӎ",
+    "function": false
+  },
+  "cyrn": {
+    "args": "",
+    "discard": true,
+    "text": "н",
+    "function": false
+  },
+  "cyrndsc": {
+    "args": "",
+    "discard": true,
+    "text": "ң",
+    "function": false
+  },
+  "cyrng": {
+    "args": "",
+    "discard": true,
+    "text": "ҥ",
+    "function": false
+  },
+  "cyrnhk": {
+    "args": "",
+    "discard": true,
+    "text": "ӈ",
+    "function": false
+  },
+  "cyrnje": {
+    "args": "",
+    "discard": true,
+    "text": "њ",
+    "function": false
+  },
+  "cyro": {
+    "args": "",
+    "discard": true,
+    "text": "о",
+    "function": false
+  },
+  "cyrotld": {
+    "args": "",
+    "discard": true,
+    "text": "ө",
+    "function": false
+  },
+  "cyrp": {
+    "args": "",
+    "discard": true,
+    "text": "п",
+    "function": false
+  },
+  "cyrphk": {
+    "args": "",
+    "discard": true,
+    "text": "ҧ",
+    "function": false
+  },
+  "cyrr": {
+    "args": "",
+    "discard": true,
+    "text": "р",
+    "function": false
+  },
+  "cyrrtick": {
+    "args": "",
+    "discard": true,
+    "text": "ҏ",
+    "function": false
+  },
+  "cyrs": {
+    "args": "",
+    "discard": true,
+    "text": "с",
+    "function": false
+  },
+  "cyrschwa": {
+    "args": "",
+    "discard": true,
+    "text": "ә",
+    "function": false
+  },
+  "cyrsdsc": {
+    "args": "",
+    "discard": true,
+    "text": "ҫ",
+    "function": false
+  },
+  "cyrsemisftsn": {
+    "args": "",
+    "discard": true,
+    "text": "ҍ",
+    "function": false
+  },
+  "cyrsftsn": {
+    "args": "",
+    "discard": true,
+    "text": "ь",
+    "function": false
+  },
+  "cyrsh": {
+    "args": "",
+    "discard": true,
+    "text": "ш",
+    "function": false
+  },
+  "cyrshch": {
+    "args": "",
+    "discard": true,
+    "text": "щ",
+    "function": false
+  },
+  "cyrshha": {
+    "args": "",
+    "discard": true,
+    "text": "һ",
+    "function": false
+  },
+  "cyrt": {
+    "args": "",
+    "discard": true,
+    "text": "т",
+    "function": false
+  },
+  "cyrtdsc": {
+    "args": "",
+    "discard": true,
+    "text": "ҭ",
+    "function": false
+  },
+  "cyrtetse": {
+    "args": "",
+    "discard": true,
+    "text": "ҵ",
+    "function": false
+  },
+  "cyrtshe": {
+    "args": "",
+    "discard": true,
+    "text": "ћ",
+    "function": false
+  },
+  "cyru": {
+    "args": "",
+    "discard": true,
+    "text": "у",
+    "function": false
+  },
+  "cyrushrt": {
+    "args": "",
+    "discard": true,
+    "text": "ў",
+    "function": false
+  },
+  "cyrv": {
+    "args": "",
+    "discard": true,
+    "text": "в",
+    "function": false
+  },
+  "cyry": {
+    "args": "",
+    "discard": true,
+    "text": "ү",
+    "function": false
+  },
+  "cyrya": {
+    "args": "",
+    "discard": true,
+    "text": "я",
+    "function": false
+  },
+  "cyryat": {
+    "args": "",
+    "discard": true,
+    "text": "ѣ",
+    "function": false
+  },
+  "cyryhcrs": {
+    "args": "",
+    "discard": true,
+    "text": "ұ",
+    "function": false
+  },
+  "cyryi": {
+    "args": "",
+    "discard": true,
+    "text": "ї",
+    "function": false
+  },
+  "cyryo": {
+    "args": "",
+    "discard": true,
+    "text": "ё",
+    "function": false
+  },
+  "cyryu": {
+    "args": "",
+    "discard": true,
+    "text": "ю",
+    "function": false
+  },
+  "cyrz": {
+    "args": "",
+    "discard": true,
+    "text": "з",
+    "function": false
+  },
+  "cyrzdsc": {
+    "args": "",
+    "discard": true,
+    "text": "ҙ",
+    "function": false
+  },
+  "cyrzh": {
+    "args": "",
+    "discard": true,
+    "text": "ж",
+    "function": false
+  },
+  "cyrzhdsc": {
+    "args": "",
+    "discard": true,
+    "text": "җ",
+    "function": false
+  },
+  "d": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "dag": {
+    "args": "",
+    "discard": true,
+    "text": "†",
+    "function": false
+  },
+  "dagger": {
+    "args": "",
+    "discard": true,
+    "text": "†",
+    "function": false
+  },
+  "daleth": {
+    "args": "",
+    "discard": true,
+    "text": "ℸ",
+    "function": false
+  },
+  "dashv": {
+    "args": "",
+    "discard": true,
+    "text": "⊣",
+    "function": false
+  },
+  "date": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "dblarrowupdown": {
+    "args": "",
+    "discard": true,
+    "text": "⇅",
+    "function": false
+  },
+  "ddddot": {
+    "args": "",
+    "discard": true,
+    "text": "⃜",
+    "function": false
+  },
+  "dddot": {
+    "args": "",
+    "discard": true,
+    "text": "⃛",
+    "function": false
+  },
+  "ddot": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "ddots": {
+    "args": "",
+    "discard": true,
+    "text": "⋱",
+    "function": false
+  },
+  "defcitealias": {
+    "args": "{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "definecolor": {
+    "args": "[{{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "delta": {
+    "args": "",
+    "discard": true,
+    "text": "δ",
+    "function": false
+  },
+  "dh": {
+    "args": "",
+    "discard": true,
+    "text": "ð",
+    "function": false
+  },
+  "diagup": {
+    "args": "",
+    "discard": true,
+    "text": "╱",
+    "function": false
+  },
+  "diamond": {
+    "args": "",
+    "discard": true,
+    "text": "♢",
+    "function": false
+  },
+  "digamma": {
+    "args": "",
+    "discard": true,
+    "text": "ϝ",
+    "function": false
+  },
+  "div": {
+    "args": "",
+    "discard": true,
+    "text": "÷",
+    "function": false
+  },
+  "divideontimes": {
+    "args": "",
+    "discard": true,
+    "text": "⋇",
+    "function": false
+  },
+  "dj": {
+    "args": "",
+    "discard": true,
+    "text": "đ",
+    "function": false
+  },
+  "documentclass": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "dot": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "doteq": {
+    "args": "",
+    "discard": true,
+    "text": "≐",
+    "function": false
+  },
+  "doteqdot": {
+    "args": "",
+    "discard": true,
+    "text": "≑",
+    "function": false
+  },
+  "dotplus": {
+    "args": "",
+    "discard": true,
+    "text": "∔",
+    "function": false
+  },
+  "dots": {
+    "args": "",
+    "discard": true,
+    "text": "…",
+    "function": false
+  },
+  "dotsb": {
+    "args": "",
+    "discard": true,
+    "text": "…",
+    "function": false
+  },
+  "dotsc": {
+    "args": "",
+    "discard": true,
+    "text": "…",
+    "function": false
+  },
+  "dotsi": {
+    "args": "",
+    "discard": true,
+    "text": "…",
+    "function": false
+  },
+  "dotsm": {
+    "args": "",
+    "discard": true,
+    "text": "…",
+    "function": false
+  },
+  "dotso": {
+    "args": "",
+    "discard": true,
+    "text": "…",
+    "function": false
+  },
+  "downarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↓",
+    "function": false
+  },
+  "downdownarrows": {
+    "args": "",
+    "discard": true,
+    "text": "⇊",
+    "function": false
+  },
+  "downharpoonleft": {
+    "args": "",
+    "discard": true,
+    "text": "⇃",
+    "function": false
+  },
+  "downharpoonright": {
+    "args": "",
+    "discard": true,
+    "text": "⇂",
+    "function": false
+  },
+  "downslopeellipsis": {
+    "args": "",
+    "discard": true,
+    "text": "⋱",
+    "function": false
+  },
+  "eighthnote": {
+    "args": "",
+    "discard": true,
+    "text": "♪",
+    "function": false
+  },
+  "ell": {
+    "args": "",
+    "discard": true,
+    "text": "ℓ",
+    "function": false
+  },
+  "emph": {
+    "args": "{",
+    "discard": false,
+    "text": null,
+    "function": false
+  },
+  "emptyset": {
+    "args": "",
+    "discard": true,
+    "text": "∅",
+    "function": false
+  },
+  "enskip": {
+    "args": "",
+    "discard": true,
+    "text": " ",
+    "function": false
+  },
+  "ensuremath": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "epsilon": {
+    "args": "",
+    "discard": true,
+    "text": "ϵ",
+    "function": false
+  },
+  "eqcirc": {
+    "args": "",
+    "discard": true,
+    "text": "≖",
+    "function": false
+  },
+  "eqref": {
+    "args": "{",
+    "discard": true,
+    "text": "(<ref>)",
+    "function": false
+  },
+  "eqslantgtr": {
+    "args": "",
+    "discard": true,
+    "text": "⪖",
+    "function": false
+  },
+  "eqslantless": {
+    "args": "",
+    "discard": true,
+    "text": "⪕",
+    "function": false
+  },
+  "equiv": {
+    "args": "",
+    "discard": true,
+    "text": "≡",
+    "function": false
+  },
+  "estimates": {
+    "args": "",
+    "discard": true,
+    "text": "≙",
+    "function": false
+  },
+  "eta": {
+    "args": "",
+    "discard": true,
+    "text": "η",
+    "function": false
+  },
+  "eth": {
+    "args": "",
+    "discard": true,
+    "text": "ƪ",
+    "function": false
+  },
+  "exenumfulllabel": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "exercise": {
+    "args": "{[",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "exists": {
+    "args": "",
+    "discard": true,
+    "text": "∃",
+    "function": false
+  },
+  "exp": {
+    "args": "",
+    "discard": true,
+    "text": "exp",
+    "function": false
+  },
+  "fallingdotseq": {
+    "args": "",
+    "discard": true,
+    "text": "≒",
+    "function": false
+  },
+  "fcolorbox": {
+    "args": "[{[{{",
+    "discard": true,
+    "text": "%(5)s",
+    "function": false
+  },
+  "flat": {
+    "args": "",
+    "discard": true,
+    "text": "♭",
+    "function": false
+  },
+  "footnote": {
+    "args": "[{",
+    "discard": true,
+    "text": "[%(2)s]",
+    "function": false
+  },
+  "forall": {
+    "args": "",
+    "discard": true,
+    "text": "∀",
+    "function": false
+  },
+  "forcesextra": {
+    "args": "",
+    "discard": true,
+    "text": "⊨",
+    "function": false
+  },
+  "frac": {
+    "args": "{{",
+    "discard": true,
+    "text": "%s/%s",
+    "function": false
+  },
+  "frown": {
+    "args": "",
+    "discard": true,
+    "text": "⌢",
+    "function": false
+  },
+  "gamma": {
+    "args": "",
+    "discard": true,
+    "text": "γ",
+    "function": false
+  },
+  "ge": {
+    "args": "",
+    "discard": true,
+    "text": "≥",
+    "function": false
+  },
+  "gemini": {
+    "args": "",
+    "discard": true,
+    "text": "♊",
+    "function": false
+  },
+  "geq": {
+    "args": "",
+    "discard": true,
+    "text": "≥",
+    "function": false
+  },
+  "geqq": {
+    "args": "",
+    "discard": true,
+    "text": "≧",
+    "function": false
+  },
+  "geqslant": {
+    "args": "",
+    "discard": true,
+    "text": "⩾",
+    "function": false
+  },
+  "gg": {
+    "args": "",
+    "discard": true,
+    "text": "≫",
+    "function": false
+  },
+  "gimel": {
+    "args": "",
+    "discard": true,
+    "text": "ℷ",
+    "function": false
+  },
+  "gnapprox": {
+    "args": "",
+    "discard": true,
+    "text": "⪊",
+    "function": false
+  },
+  "gneq": {
+    "args": "",
+    "discard": true,
+    "text": "⪈",
+    "function": false
+  },
+  "gneqq": {
+    "args": "",
+    "discard": true,
+    "text": "≩",
+    "function": false
+  },
+  "gnsim": {
+    "args": "",
+    "discard": true,
+    "text": "⋧",
+    "function": false
+  },
+  "grave": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "greaterequivlnt": {
+    "args": "",
+    "discard": true,
+    "text": "≳",
+    "function": false
+  },
+  "gtrapprox": {
+    "args": "",
+    "discard": true,
+    "text": "⪆",
+    "function": false
+  },
+  "gtrdot": {
+    "args": "",
+    "discard": true,
+    "text": "⋗",
+    "function": false
+  },
+  "gtreqless": {
+    "args": "",
+    "discard": true,
+    "text": "⋛",
+    "function": false
+  },
+  "gtreqqless": {
+    "args": "",
+    "discard": true,
+    "text": "⪌",
+    "function": false
+  },
+  "gtrless": {
+    "args": "",
+    "discard": true,
+    "text": "≷",
+    "function": false
+  },
+  "gtrsim": {
+    "args": "",
+    "discard": true,
+    "text": "≳",
+    "function": false
+  },
+  "guillemotleft": {
+    "args": "",
+    "discard": true,
+    "text": "«",
+    "function": false
+  },
+  "guillemotright": {
+    "args": "",
+    "discard": true,
+    "text": "»",
+    "function": false
+  },
+  "guilsinglleft": {
+    "args": "",
+    "discard": true,
+    "text": "‹",
+    "function": false
+  },
+  "guilsinglright": {
+    "args": "",
+    "discard": true,
+    "text": "›",
+    "function": false
+  },
+  "hat": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "hbar": {
+    "args": "",
+    "discard": true,
+    "text": "ħ",
+    "function": false
+  },
+  "hermitconjmatrix": {
+    "args": "",
+    "discard": true,
+    "text": "⊹",
+    "function": false
+  },
+  "hint": {
+    "args": "{",
+    "discard": true,
+    "text": "Hint: %s",
+    "function": false
+  },
+  "hints": {
+    "args": "{",
+    "discard": true,
+    "text": "Hints: %s",
+    "function": false
+  },
+  "hinweis": {
+    "args": "{",
+    "discard": true,
+    "text": "Hinweis: %s",
+    "function": false
+  },
+  "hinweise": {
+    "args": "{",
+    "discard": true,
+    "text": "Hinweise: %s",
+    "function": false
+  },
+  "homothetic": {
+    "args": "",
+    "discard": true,
+    "text": "∻",
+    "function": false
+  },
+  "hookleftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↩",
+    "function": false
+  },
+  "hookrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↪",
+    "function": false
+  },
+  "hphantom": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "href": {
+    "args": "{{",
+    "discard": true,
+    "text": "%(2)s",
+    "function": false
+  },
+  "hslash": {
+    "args": "",
+    "discard": true,
+    "text": "ℏ",
+    "function": false
+  },
+  "hspace": {
+    "args": "*{",
+    "discard": true,
+    "text": "",
+    "function": false
+  },
+  "hwithstroke": {
+    "args": "",
+    "discard": true,
+    "text": "ħ",
+    "function": false
+  },
+  "hypersetup": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "i": {
+    "args": "",
+    "discard": true,
+    "text": "ı",
+    "function": false
+  },
+  "id": {
+    "args": "",
+    "discard": true,
+    "text": "𝕀",
+    "function": false
+  },
+  "iddots": {
+    "args": "",
+    "discard": true,
+    "text": "⋰",
+    "function": false
+  },
+  "iiint": {
+    "args": "",
+    "discard": true,
+    "text": "∭",
+    "function": false
+  },
+  "iint": {
+    "args": "",
+    "discard": true,
+    "text": "∬",
+    "function": false
+  },
+  "ij": {
+    "args": "",
+    "discard": true,
+    "text": "ĳ",
+    "function": false
+  },
+  "image": {
+    "args": "",
+    "discard": true,
+    "text": "⊷",
+    "function": false
+  },
+  "in": {
+    "args": "",
+    "discard": true,
+    "text": "∈",
+    "function": false
+  },
+  "include": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "includegraphics": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "inf": {
+    "args": "",
+    "discard": true,
+    "text": "inf",
+    "function": false
+  },
+  "infty": {
+    "args": "",
+    "discard": true,
+    "text": "∞",
+    "function": false
+  },
+  "input": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "int": {
+    "args": "",
+    "discard": true,
+    "text": "∫",
+    "function": false
+  },
+  "intercal": {
+    "args": "",
+    "discard": true,
+    "text": "⊺",
+    "function": false
+  },
+  "iota": {
+    "args": "",
+    "discard": true,
+    "text": "ι",
+    "function": false
+  },
+  "item": {
+    "args": "[",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "j": {
+    "args": "",
+    "discard": true,
+    "text": "ȷ",
+    "function": false
+  },
+  "jupiter": {
+    "args": "",
+    "discard": true,
+    "text": "♃",
+    "function": false
+  },
+  "k": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "kappa": {
+    "args": "",
+    "discard": true,
+    "text": "κ",
+    "function": false
+  },
+  "ket": {
+    "args": "{",
+    "discard": true,
+    "text": "|%s⟩",
+    "function": false
+  },
+  "ketbra": {
+    "args": "{{",
+    "discard": true,
+    "text": "|%s⟩⟨%s|",
+    "function": false
+  },
+  "keywords": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "l": {
+    "args": "",
+    "discard": true,
+    "text": "ł",
+    "function": false
+  },
+  "lVert": {
+    "args": "",
+    "discard": true,
+    "text": "‖",
+    "function": false
+  },
+  "label": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "lambda": {
+    "args": "",
+    "discard": true,
+    "text": "λ",
+    "function": false
+  },
+  "langle": {
+    "args": "",
+    "discard": true,
+    "text": "⟨",
+    "function": false
+  },
+  "lazysinv": {
+    "args": "",
+    "discard": true,
+    "text": "∾",
+    "function": false
+  },
+  "lbrace": {
+    "args": "",
+    "discard": true,
+    "text": "{",
+    "function": false
+  },
+  "lceil": {
+    "args": "",
+    "discard": true,
+    "text": "⌈",
+    "function": false
+  },
+  "ldots": {
+    "args": "",
+    "discard": true,
+    "text": "…",
+    "function": false
+  },
+  "le": {
+    "args": "",
+    "discard": true,
+    "text": "≤",
+    "function": false
+  },
+  "leftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "←",
+    "function": false
+  },
+  "leftarrowtail": {
+    "args": "",
+    "discard": true,
+    "text": "↢",
+    "function": false
+  },
+  "leftharpoondown": {
+    "args": "",
+    "discard": true,
+    "text": "↽",
+    "function": false
+  },
+  "leftharpoonup": {
+    "args": "",
+    "discard": true,
+    "text": "↼",
+    "function": false
+  },
+  "leftleftarrows": {
+    "args": "",
+    "discard": true,
+    "text": "⇇",
+    "function": false
+  },
+  "leftrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↔",
+    "function": false
+  },
+  "leftrightarrows": {
+    "args": "",
+    "discard": true,
+    "text": "⇆",
+    "function": false
+  },
+  "leftrightharpoons": {
+    "args": "",
+    "discard": true,
+    "text": "⇋",
+    "function": false
+  },
+  "leftrightsquigarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↭",
+    "function": false
+  },
+  "leftthreetimes": {
+    "args": "",
+    "discard": true,
+    "text": "⋋",
+    "function": false
+  },
+  "leo": {
+    "args": "",
+    "discard": true,
+    "text": "♌",
+    "function": false
+  },
+  "leq": {
+    "args": "",
+    "discard": true,
+    "text": "≤",
+    "function": false
+  },
+  "leqq": {
+    "args": "",
+    "discard": true,
+    "text": "≦",
+    "function": false
+  },
+  "leqslant": {
+    "args": "",
+    "discard": true,
+    "text": "⩽",
+    "function": false
+  },
+  "lessapprox": {
+    "args": "",
+    "discard": true,
+    "text": "⪅",
+    "function": false
+  },
+  "lessdot": {
+    "args": "",
+    "discard": true,
+    "text": "⋖",
+    "function": false
+  },
+  "lesseqgtr": {
+    "args": "",
+    "discard": true,
+    "text": "⋚",
+    "function": false
+  },
+  "lesseqqgtr": {
+    "args": "",
+    "discard": true,
+    "text": "⪋",
+    "function": false
+  },
+  "lessequivlnt": {
+    "args": "",
+    "discard": true,
+    "text": "≲",
+    "function": false
+  },
+  "lessgtr": {
+    "args": "",
+    "discard": true,
+    "text": "≶",
+    "function": false
+  },
+  "lesssim": {
+    "args": "",
+    "discard": true,
+    "text": "≲",
+    "function": false
+  },
+  "lfloor": {
+    "args": "",
+    "discard": true,
+    "text": "⌊",
+    "function": false
+  },
+  "libra": {
+    "args": "",
+    "discard": true,
+    "text": "♎",
+    "function": false
+  },
+  "lim": {
+    "args": "",
+    "discard": true,
+    "text": "lim",
+    "function": false
+  },
+  "liminf": {
+    "args": "",
+    "discard": true,
+    "text": "lim inf",
+    "function": false
+  },
+  "limsup": {
+    "args": "",
+    "discard": true,
+    "text": "lim sup",
+    "function": false
+  },
+  "ll": {
+    "args": "",
+    "discard": true,
+    "text": "≪",
+    "function": false
+  },
+  "llcorner": {
+    "args": "",
+    "discard": true,
+    "text": "⌞",
+    "function": false
+  },
+  "lmoustache": {
+    "args": "",
+    "discard": true,
+    "text": "⎰",
+    "function": false
+  },
+  "ln": {
+    "args": "",
+    "discard": true,
+    "text": "ln",
+    "function": false
+  },
+  "lnapprox": {
+    "args": "",
+    "discard": true,
+    "text": "⪉",
+    "function": false
+  },
+  "lneq": {
+    "args": "",
+    "discard": true,
+    "text": "⪇",
+    "function": false
+  },
+  "lneqq": {
+    "args": "",
+    "discard": true,
+    "text": "≨",
+    "function": false
+  },
+  "lnot": {
+    "args": "",
+    "discard": true,
+    "text": "¬",
+    "function": false
+  },
+  "lnsim": {
+    "args": "",
+    "discard": true,
+    "text": "⋦",
+    "function": false
+  },
+  "log": {
+    "args": "",
+    "discard": true,
+    "text": "log",
+    "function": false
+  },
+  "longleftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⟵",
+    "function": false
+  },
+  "longleftrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⟷",
+    "function": false
+  },
+  "longmapsto": {
+    "args": "",
+    "discard": true,
+    "text": "⟼",
+    "function": false
+  },
+  "longrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⟶",
+    "function": false
+  },
+  "looparrowleft": {
+    "args": "",
+    "discard": true,
+    "text": "↫",
+    "function": false
+  },
+  "looparrowright": {
+    "args": "",
+    "discard": true,
+    "text": "↬",
+    "function": false
+  },
+  "lozenge": {
+    "args": "",
+    "discard": true,
+    "text": "◊",
+    "function": false
+  },
+  "lrcorner": {
+    "args": "",
+    "discard": true,
+    "text": "⌟",
+    "function": false
+  },
+  "ltimes": {
+    "args": "",
+    "discard": true,
+    "text": "⋉",
+    "function": false
+  },
+  "lvert": {
+    "args": "",
+    "discard": true,
+    "text": "|",
+    "function": false
+  },
+  "maketitle": {
+    "args": "",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "male": {
+    "args": "",
+    "discard": true,
+    "text": "♂",
+    "function": false
+  },
+  "mapsto": {
+    "args": "",
+    "discard": true,
+    "text": "↦",
+    "function": false
+  },
+  "mathbb": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "mathbf": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "mathcal": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "mathfrak": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "mathit": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "mathrm": {
+    "args": "{",
+    "discard": false,
+    "text": null,
+    "function": false
+  },
+  "mathscr": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "mathsf": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "mathtt": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "max": {
+    "args": "",
+    "discard": true,
+    "text": "max",
+    "function": false
+  },
+  "mbox": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "measuredangle": {
+    "args": "",
+    "discard": true,
+    "text": "∡",
+    "function": false
+  },
+  "mercury": {
+    "args": "",
+    "discard": true,
+    "text": "☿",
+    "function": false
+  },
+  "mho": {
+    "args": "",
+    "discard": true,
+    "text": "℧",
+    "function": false
+  },
+  "mid": {
+    "args": "",
+    "discard": true,
+    "text": "|",
+    "function": false
+  },
+  "min": {
+    "args": "",
+    "discard": true,
+    "text": "min",
+    "function": false
+  },
+  "mp": {
+    "args": "",
+    "discard": true,
+    "text": "∓",
+    "function": false
+  },
+  "mu": {
+    "args": "",
+    "discard": true,
+    "text": "μ",
+    "function": false
+  },
+  "multimap": {
+    "args": "",
+    "discard": true,
+    "text": "⊸",
+    "function": false
+  },
+  "nLeftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇍",
+    "function": false
+  },
+  "nLeftrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇎",
+    "function": false
+  },
+  "nRightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇏",
+    "function": false
+  },
+  "nVDash": {
+    "args": "",
+    "discard": true,
+    "text": "⊯",
+    "function": false
+  },
+  "nVdash": {
+    "args": "",
+    "discard": true,
+    "text": "⊮",
+    "function": false
+  },
+  "nabla": {
+    "args": "",
+    "discard": true,
+    "text": "∇",
+    "function": false
+  },
+  "natural": {
+    "args": "",
+    "discard": true,
+    "text": "♮",
+    "function": false
+  },
+  "nearrow": {
+    "args": "",
+    "discard": true,
+    "text": "↗",
+    "function": false
+  },
+  "neptune": {
+    "args": "",
+    "discard": true,
+    "text": "♆",
+    "function": false
+  },
+  "neq": {
+    "args": "",
+    "discard": true,
+    "text": "≠",
+    "function": false
+  },
+  "newcite": {
+    "args": "",
+    "discard": true,
+    "text": "(CITATION)",
+    "function": false
+  },
+  "newcommand": {
+    "args": "*{[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "newenvironment": {
+    "args": "*{[[{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "nexists": {
+    "args": "",
+    "discard": true,
+    "text": "∄",
+    "function": false
+  },
+  "ng": {
+    "args": "",
+    "discard": true,
+    "text": "ŋ",
+    "function": false
+  },
+  "ngeq": {
+    "args": "",
+    "discard": true,
+    "text": "≱",
+    "function": false
+  },
+  "ngtr": {
+    "args": "",
+    "discard": true,
+    "text": "≯",
+    "function": false
+  },
+  "ni": {
+    "args": "",
+    "discard": true,
+    "text": "∋",
+    "function": false
+  },
+  "nicefrac": {
+    "args": "{{",
+    "discard": true,
+    "text": "%s/%s",
+    "function": false
+  },
+  "nleftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↚",
+    "function": false
+  },
+  "nleftrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↮",
+    "function": false
+  },
+  "nleq": {
+    "args": "",
+    "discard": true,
+    "text": "≰",
+    "function": false
+  },
+  "nless": {
+    "args": "",
+    "discard": true,
+    "text": "≮",
+    "function": false
+  },
+  "nmid": {
+    "args": "",
+    "discard": true,
+    "text": "∤",
+    "function": false
+  },
+  "nolinebreak": {
+    "args": "",
+    "discard": true,
+    "text": "⁠",
+    "function": false
+  },
+  "nopagecolor": {
+    "args": "",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "not": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "notgreaterless": {
+    "args": "",
+    "discard": true,
+    "text": "≹",
+    "function": false
+  },
+  "notin": {
+    "args": "",
+    "discard": true,
+    "text": "∉",
+    "function": false
+  },
+  "notlessgreater": {
+    "args": "",
+    "discard": true,
+    "text": "≸",
+    "function": false
+  },
+  "nparallel": {
+    "args": "",
+    "discard": true,
+    "text": "∦",
+    "function": false
+  },
+  "nprec": {
+    "args": "",
+    "discard": true,
+    "text": "⊀",
+    "function": false
+  },
+  "nrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↛",
+    "function": false
+  },
+  "nsubseteq": {
+    "args": "",
+    "discard": true,
+    "text": "⊈",
+    "function": false
+  },
+  "nsucc": {
+    "args": "",
+    "discard": true,
+    "text": "⊁",
+    "function": false
+  },
+  "nsupseteq": {
+    "args": "",
+    "discard": true,
+    "text": "⊉",
+    "function": false
+  },
+  "ntriangleleft": {
+    "args": "",
+    "discard": true,
+    "text": "⋪",
+    "function": false
+  },
+  "ntrianglelefteq": {
+    "args": "",
+    "discard": true,
+    "text": "⋬",
+    "function": false
+  },
+  "ntriangleright": {
+    "args": "",
+    "discard": true,
+    "text": "⋫",
+    "function": false
+  },
+  "ntrianglerighteq": {
+    "args": "",
+    "discard": true,
+    "text": "⋭",
+    "function": false
+  },
+  "nu": {
+    "args": "",
+    "discard": true,
+    "text": "ν",
+    "function": false
+  },
+  "nvDash": {
+    "args": "",
+    "discard": true,
+    "text": "⊭",
+    "function": false
+  },
+  "nvdash": {
+    "args": "",
+    "discard": true,
+    "text": "⊬",
+    "function": false
+  },
+  "nwarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↖",
+    "function": false
+  },
+  "o": {
+    "args": "",
+    "discard": true,
+    "text": "ø",
+    "function": false
+  },
+  "odot": {
+    "args": "",
+    "discard": true,
+    "text": "⊙",
+    "function": false
+  },
+  "oe": {
+    "args": "",
+    "discard": true,
+    "text": "œ",
+    "function": false
+  },
+  "oint": {
+    "args": "",
+    "discard": true,
+    "text": "∮",
+    "function": false
+  },
+  "omega": {
+    "args": "",
+    "discard": true,
+    "text": "ω",
+    "function": false
+  },
+  "omicron": {
+    "args": "",
+    "discard": true,
+    "text": "ο",
+    "function": false
+  },
+  "ominus": {
+    "args": "",
+    "discard": true,
+    "text": "⊖",
+    "function": false
+  },
+  "openbracketleft": {
+    "args": "",
+    "discard": true,
+    "text": "〚",
+    "function": false
+  },
+  "openbracketright": {
+    "args": "",
+    "discard": true,
+    "text": "〛",
+    "function": false
+  },
+  "oplus": {
+    "args": "",
+    "discard": true,
+    "text": "⊕",
+    "function": false
+  },
+  "original": {
+    "args": "",
+    "discard": true,
+    "text": "⊶",
+    "function": false
+  },
+  "oslash": {
+    "args": "",
+    "discard": true,
+    "text": "⊘",
+    "function": false
+  },
+  "otimes": {
+    "args": "",
+    "discard": true,
+    "text": "⊗",
+    "function": false
+  },
+  "overbrace": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "overbracket": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "overgroup": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "overleftarrow": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "overleftharpoon": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "overleftrightarrow": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "overline": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "overlinesegment": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "overrightarrow": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "overrightharpoon": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "pagagraph": {
+    "args": "*[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "pagecolor": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "paragraph": {
+    "args": "",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "parallel": {
+    "args": "",
+    "discard": true,
+    "text": "∥",
+    "function": false
+  },
+  "part": {
+    "args": "",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "partial": {
+    "args": "",
+    "discard": true,
+    "text": "∂",
+    "function": false
+  },
+  "pdfloesung": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "pdfsolution": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "perp": {
+    "args": "",
+    "discard": true,
+    "text": "⊥",
+    "function": false
+  },
+  "perspcorrespond": {
+    "args": "",
+    "discard": true,
+    "text": "⩞",
+    "function": false
+  },
+  "phi": {
+    "args": "",
+    "discard": true,
+    "text": "ϕ",
+    "function": false
+  },
+  "pi": {
+    "args": "",
+    "discard": true,
+    "text": "π",
+    "function": false
+  },
+  "pisces": {
+    "args": "",
+    "discard": true,
+    "text": "♓",
+    "function": false
+  },
+  "pitchfork": {
+    "args": "",
+    "discard": true,
+    "text": "⋔",
+    "function": false
+  },
+  "pluto": {
+    "args": "",
+    "discard": true,
+    "text": "♇",
+    "function": false
+  },
+  "pm": {
+    "args": "",
+    "discard": true,
+    "text": "±",
+    "function": false
+  },
+  "prec": {
+    "args": "",
+    "discard": true,
+    "text": "≺",
+    "function": false
+  },
+  "precapprox": {
+    "args": "",
+    "discard": true,
+    "text": "⪷",
+    "function": false
+  },
+  "preccurlyeq": {
+    "args": "",
+    "discard": true,
+    "text": "≼",
+    "function": false
+  },
+  "precedesnotsimilar": {
+    "args": "",
+    "discard": true,
+    "text": "⋨",
+    "function": false
+  },
+  "preceq": {
+    "args": "",
+    "discard": true,
+    "text": "≼",
+    "function": false
+  },
+  "precnapprox": {
+    "args": "",
+    "discard": true,
+    "text": "⪹",
+    "function": false
+  },
+  "precneqq": {
+    "args": "",
+    "discard": true,
+    "text": "⪵",
+    "function": false
+  },
+  "precsim": {
+    "args": "",
+    "discard": true,
+    "text": "≾",
+    "function": false
+  },
+  "prime": {
+    "args": "",
+    "discard": true,
+    "text": "'",
+    "function": false
+  },
+  "prod": {
+    "args": "",
+    "discard": true,
+    "text": "∏",
+    "function": false
+  },
+  "propto": {
+    "args": "",
+    "discard": true,
+    "text": "∝",
+    "function": false
+  },
+  "providecolor": {
+    "args": "[{{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "providecommand": {
+    "args": "*{[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "provideenvironment": {
+    "args": "*{[[{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "psi": {
+    "args": "",
+    "discard": true,
+    "text": "ψ",
+    "function": false
+  },
+  "qquad": {
+    "args": "",
+    "discard": true,
+    "text": "    ",
+    "function": false
+  },
+  "quad": {
+    "args": "",
+    "discard": true,
+    "text": "  ",
+    "function": false
+  },
+  "quarternote": {
+    "args": "",
+    "discard": true,
+    "text": "♩",
+    "function": false
+  },
+  "quotedblbase": {
+    "args": "",
+    "discard": true,
+    "text": "„",
+    "function": false
+  },
+  "quotesinglbase": {
+    "args": "",
+    "discard": true,
+    "text": "‚",
+    "function": false
+  },
+  "r": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "rVert": {
+    "args": "",
+    "discard": true,
+    "text": "‖",
+    "function": false
+  },
+  "rangle": {
+    "args": "",
+    "discard": true,
+    "text": "⟩",
+    "function": false
+  },
+  "rbrace": {
+    "args": "",
+    "discard": true,
+    "text": "}",
+    "function": false
+  },
+  "rceil": {
+    "args": "",
+    "discard": true,
+    "text": "⌉",
+    "function": false
+  },
+  "recorder": {
+    "args": "",
+    "discard": true,
+    "text": "⌕",
+    "function": false
+  },
+  "ref": {
+    "args": "{",
+    "discard": true,
+    "text": "<ref>",
+    "function": false
+  },
+  "renewcommand": {
+    "args": "*{[[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "renewenvironment": {
+    "args": "*{[[{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "rfloor": {
+    "args": "",
+    "discard": true,
+    "text": "⌋",
+    "function": false
+  },
+  "rho": {
+    "args": "",
+    "discard": true,
+    "text": "ρ",
+    "function": false
+  },
+  "rightangle": {
+    "args": "",
+    "discard": true,
+    "text": "∟",
+    "function": false
+  },
+  "rightanglearc": {
+    "args": "",
+    "discard": true,
+    "text": "⊾",
+    "function": false
+  },
+  "rightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "→",
+    "function": false
+  },
+  "rightarrowtail": {
+    "args": "",
+    "discard": true,
+    "text": "↣",
+    "function": false
+  },
+  "rightharpoondown": {
+    "args": "",
+    "discard": true,
+    "text": "⇁",
+    "function": false
+  },
+  "rightharpoonup": {
+    "args": "",
+    "discard": true,
+    "text": "⇀",
+    "function": false
+  },
+  "rightleftarrows": {
+    "args": "",
+    "discard": true,
+    "text": "⇄",
+    "function": false
+  },
+  "rightleftharpoons": {
+    "args": "",
+    "discard": true,
+    "text": "⇌",
+    "function": false
+  },
+  "rightmoon": {
+    "args": "",
+    "discard": true,
+    "text": "☾",
+    "function": false
+  },
+  "rightrightarrows": {
+    "args": "",
+    "discard": true,
+    "text": "⇉",
+    "function": false
+  },
+  "rightsquigarrow": {
+    "args": "",
+    "discard": true,
+    "text": "⇝",
+    "function": false
+  },
+  "rightthreetimes": {
+    "args": "",
+    "discard": true,
+    "text": "⋌",
+    "function": false
+  },
+  "risingdotseq": {
+    "args": "",
+    "discard": true,
+    "text": "≓",
+    "function": false
+  },
+  "rmoustache": {
+    "args": "",
+    "discard": true,
+    "text": "⎱",
+    "function": false
+  },
+  "rowcolors": {
+    "args": "*[{{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "rtimes": {
+    "args": "",
+    "discard": true,
+    "text": "⋊",
+    "function": false
+  },
+  "rvert": {
+    "args": "",
+    "discard": true,
+    "text": "|",
+    "function": false
+  },
+  "sagittarius": {
+    "args": "",
+    "discard": true,
+    "text": "♐",
+    "function": false
+  },
+  "saturn": {
+    "args": "",
+    "discard": true,
+    "text": "♄",
+    "function": false
+  },
+  "scorpio": {
+    "args": "",
+    "discard": true,
+    "text": "♏",
+    "function": false
+  },
+  "searrow": {
+    "args": "",
+    "discard": true,
+    "text": "↘",
+    "function": false
+  },
+  "section": {
+    "args": "*[{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "selectlanguage": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "setcounter": {
+    "args": "[{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "setlength": {
+    "args": "[{{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "setminus": {
+    "args": "",
+    "discard": true,
+    "text": "∖",
+    "function": false
+  },
+  "sharp": {
+    "args": "",
+    "discard": true,
+    "text": "♯",
+    "function": false
+  },
+  "sigma": {
+    "args": "",
+    "discard": true,
+    "text": "σ",
+    "function": false
+  },
+  "sim": {
+    "args": "",
+    "discard": true,
+    "text": "∼",
+    "function": false
+  },
+  "simeq": {
+    "args": "",
+    "discard": true,
+    "text": "≃",
+    "function": false
+  },
+  "sin": {
+    "args": "",
+    "discard": true,
+    "text": "sin",
+    "function": false
+  },
+  "sinh": {
+    "args": "",
+    "discard": true,
+    "text": "sinh",
+    "function": false
+  },
+  "smallsetminus": {
+    "args": "",
+    "discard": true,
+    "text": "∖",
+    "function": false
+  },
+  "smile": {
+    "args": "",
+    "discard": true,
+    "text": "⌣",
+    "function": false
+  },
+  "sphericalangle": {
+    "args": "",
+    "discard": true,
+    "text": "∢",
+    "function": false
+  },
+  "sqcap": {
+    "args": "",
+    "discard": true,
+    "text": "⊓",
+    "function": false
+  },
+  "sqcup": {
+    "args": "",
+    "discard": true,
+    "text": "⊔",
+    "function": false
+  },
+  "sqrint": {
+    "args": "",
+    "discard": true,
+    "text": "⨖",
+    "function": false
+  },
+  "sqrt": {
+    "args": "[{",
+    "discard": true,
+    "text": "√(%(2)s)",
+    "function": false
+  },
+  "sqsubset": {
+    "args": "",
+    "discard": true,
+    "text": "⊏",
+    "function": false
+  },
+  "sqsubseteq": {
+    "args": "",
+    "discard": true,
+    "text": "⊑",
+    "function": false
+  },
+  "sqsupset": {
+    "args": "",
+    "discard": true,
+    "text": "⊐",
+    "function": false
+  },
+  "sqsupseteq": {
+    "args": "",
+    "discard": true,
+    "text": "⊒",
+    "function": false
+  },
+  "square": {
+    "args": "",
+    "discard": true,
+    "text": "□",
+    "function": false
+  },
+  "ss": {
+    "args": "",
+    "discard": true,
+    "text": "ß",
+    "function": false
+  },
+  "star": {
+    "args": "",
+    "discard": true,
+    "text": "⋆",
+    "function": false
+  },
+  "starequal": {
+    "args": "",
+    "discard": true,
+    "text": "≛",
+    "function": false
+  },
+  "subexercise": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "subparagraph": {
+    "args": "*[{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "subsection": {
+    "args": "*[{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "subset": {
+    "args": "",
+    "discard": true,
+    "text": "⊂",
+    "function": false
+  },
+  "subseteq": {
+    "args": "",
+    "discard": true,
+    "text": "⊆",
+    "function": false
+  },
+  "subseteqq": {
+    "args": "",
+    "discard": true,
+    "text": "⫅",
+    "function": false
+  },
+  "subsetneq": {
+    "args": "",
+    "discard": true,
+    "text": "⊊",
+    "function": false
+  },
+  "subsetneqq": {
+    "args": "",
+    "discard": true,
+    "text": "⫋",
+    "function": false
+  },
+  "subsubsection": {
+    "args": "*[{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "subuebung": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "succ": {
+    "args": "",
+    "discard": true,
+    "text": "≻",
+    "function": false
+  },
+  "succapprox": {
+    "args": "",
+    "discard": true,
+    "text": "⪸",
+    "function": false
+  },
+  "succcurlyeq": {
+    "args": "",
+    "discard": true,
+    "text": "≽",
+    "function": false
+  },
+  "succeq": {
+    "args": "",
+    "discard": true,
+    "text": "≽",
+    "function": false
+  },
+  "succnapprox": {
+    "args": "",
+    "discard": true,
+    "text": "⪺",
+    "function": false
+  },
+  "succneqq": {
+    "args": "",
+    "discard": true,
+    "text": "⪶",
+    "function": false
+  },
+  "succnsim": {
+    "args": "",
+    "discard": true,
+    "text": "⋩",
+    "function": false
+  },
+  "succsim": {
+    "args": "",
+    "discard": true,
+    "text": "≿",
+    "function": false
+  },
+  "sum": {
+    "args": "",
+    "discard": true,
+    "text": "∑",
+    "function": false
+  },
+  "sup": {
+    "args": "",
+    "discard": true,
+    "text": "sup",
+    "function": false
+  },
+  "supset": {
+    "args": "",
+    "discard": true,
+    "text": "⊃",
+    "function": false
+  },
+  "supseteq": {
+    "args": "",
+    "discard": true,
+    "text": "⊇",
+    "function": false
+  },
+  "supseteqq": {
+    "args": "",
+    "discard": true,
+    "text": "⫆",
+    "function": false
+  },
+  "supsetneq": {
+    "args": "",
+    "discard": true,
+    "text": "⊋",
+    "function": false
+  },
+  "supsetneqq": {
+    "args": "",
+    "discard": true,
+    "text": "⫌",
+    "function": false
+  },
+  "surd": {
+    "args": "",
+    "discard": true,
+    "text": "√",
+    "function": false
+  },
+  "surfintegral": {
+    "args": "",
+    "discard": true,
+    "text": "∯",
+    "function": false
+  },
+  "swarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↙",
+    "function": false
+  },
+  "tan": {
+    "args": "",
+    "discard": true,
+    "text": "tan",
+    "function": false
+  },
+  "tanh": {
+    "args": "",
+    "discard": true,
+    "text": "tanh",
+    "function": false
+  },
+  "tau": {
+    "args": "",
+    "discard": true,
+    "text": "τ",
+    "function": false
+  },
+  "taurus": {
+    "args": "",
+    "discard": true,
+    "text": "♉",
+    "function": false
+  },
+  "texorpdfstring": {
+    "args": "{{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "text": {
+    "args": "{",
+    "discard": false,
+    "text": null,
+    "function": false
+  },
+  "textTheta": {
+    "args": "",
+    "discard": true,
+    "text": "ϴ",
+    "function": false
+  },
+  "textacutedbl": {
+    "args": "",
+    "discard": true,
+    "text": "˝",
+    "function": false
+  },
+  "textasciiacute": {
+    "args": "",
+    "discard": true,
+    "text": "´",
+    "function": false
+  },
+  "textasciibreve": {
+    "args": "",
+    "discard": true,
+    "text": "˘",
+    "function": false
+  },
+  "textasciicaron": {
+    "args": "",
+    "discard": true,
+    "text": "ˇ",
+    "function": false
+  },
+  "textasciicircum": {
+    "args": "",
+    "discard": true,
+    "text": "ˆ",
+    "function": false
+  },
+  "textasciidieresis": {
+    "args": "",
+    "discard": true,
+    "text": "¨",
+    "function": false
+  },
+  "textasciigrave": {
+    "args": "",
+    "discard": true,
+    "text": "`",
+    "function": false
+  },
+  "textasciimacron": {
+    "args": "",
+    "discard": true,
+    "text": "¯",
+    "function": false
+  },
+  "textasciitilde": {
+    "args": "",
+    "discard": true,
+    "text": "~",
+    "function": false
+  },
+  "textasteriskcentered": {
+    "args": "",
+    "discard": true,
+    "text": "⁎",
+    "function": false
+  },
+  "textbackslash": {
+    "args": "",
+    "discard": true,
+    "text": "\\",
+    "function": false
+  },
+  "textbaht": {
+    "args": "",
+    "discard": true,
+    "text": "฿",
+    "function": false
+  },
+  "textbf": {
+    "args": "{",
+    "discard": false,
+    "text": null,
+    "function": false
+  },
+  "textbigcircle": {
+    "args": "",
+    "discard": true,
+    "text": "◯",
+    "function": false
+  },
+  "textblank": {
+    "args": "",
+    "discard": true,
+    "text": "␢",
+    "function": false
+  },
+  "textbrokenbar": {
+    "args": "",
+    "discard": true,
+    "text": "¦",
+    "function": false
+  },
+  "textbullet": {
+    "args": "",
+    "discard": true,
+    "text": "•",
+    "function": false
+  },
+  "textcelsius": {
+    "args": "",
+    "discard": true,
+    "text": "℃",
+    "function": false
+  },
+  "textcent": {
+    "args": "",
+    "discard": true,
+    "text": "¢",
+    "function": false
+  },
+  "textcircledP": {
+    "args": "",
+    "discard": true,
+    "text": "℗",
+    "function": false
+  },
+  "textcolonmonetary": {
+    "args": "",
+    "discard": true,
+    "text": "₡",
+    "function": false
+  },
+  "textcolor": {
+    "args": "[{{",
+    "discard": true,
+    "text": "%(3)s",
+    "function": false
+  },
+  "textcommabelow": {
+    "args": "{",
+    "discard": true,
+    "text": "%ș",
+    "function": false
+  },
+  "textcompwordmark": {
+    "args": "",
+    "discard": true,
+    "text": "‌",
+    "function": false
+  },
+  "textcopyright": {
+    "args": "",
+    "discard": true,
+    "text": "©",
+    "function": false
+  },
+  "textcurrency": {
+    "args": "",
+    "discard": true,
+    "text": "¤",
+    "function": false
+  },
+  "textdagger": {
+    "args": "",
+    "discard": true,
+    "text": "†",
+    "function": false
+  },
+  "textdaggerdbl": {
+    "args": "",
+    "discard": true,
+    "text": "‡",
+    "function": false
+  },
+  "textdegree": {
+    "args": "",
+    "discard": true,
+    "text": "°",
+    "function": false
+  },
+  "textdiscount": {
+    "args": "",
+    "discard": true,
+    "text": "⁒",
+    "function": false
+  },
+  "textdiv": {
+    "args": "",
+    "discard": true,
+    "text": "÷",
+    "function": false
+  },
+  "textdollar": {
+    "args": "",
+    "discard": true,
+    "text": "$",
+    "function": false
+  },
+  "textdong": {
+    "args": "",
+    "discard": true,
+    "text": "₫",
+    "function": false
+  },
+  "textdoublepipe": {
+    "args": "",
+    "discard": true,
+    "text": "ǂ",
+    "function": false
+  },
+  "textdownarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↓",
+    "function": false
+  },
+  "textellipsis": {
+    "args": "",
+    "discard": true,
+    "text": "…",
+    "function": false
+  },
+  "textemdash": {
+    "args": "",
+    "discard": true,
+    "text": "—",
+    "function": false
+  },
+  "textendash": {
+    "args": "",
+    "discard": true,
+    "text": "–",
+    "function": false
+  },
+  "textestimated": {
+    "args": "",
+    "discard": true,
+    "text": "℮",
+    "function": false
+  },
+  "texteuro": {
+    "args": "",
+    "discard": true,
+    "text": "€",
+    "function": false
+  },
+  "textexclamdown": {
+    "args": "",
+    "discard": true,
+    "text": "¡",
+    "function": false
+  },
+  "textflorin": {
+    "args": "",
+    "discard": true,
+    "text": "ƒ",
+    "function": false
+  },
+  "textfrac": {
+    "args": "",
+    "discard": true,
+    "text": "%s/%s",
+    "function": false
+  },
+  "textfractionsolidus": {
+    "args": "",
+    "discard": true,
+    "text": "⁄",
+    "function": false
+  },
+  "textglotstop": {
+    "args": "",
+    "discard": true,
+    "text": "ʔ",
+    "function": false
+  },
+  "texthvlig": {
+    "args": "",
+    "discard": true,
+    "text": "ƕ",
+    "function": false
+  },
+  "textinterrobang": {
+    "args": "",
+    "discard": true,
+    "text": "‽",
+    "function": false
+  },
+  "textit": {
+    "args": "{",
+    "discard": false,
+    "text": null,
+    "function": false
+  },
+  "textlangle": {
+    "args": "",
+    "discard": true,
+    "text": "〈",
+    "function": false
+  },
+  "textleftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "←",
+    "function": false
+  },
+  "textlira": {
+    "args": "",
+    "discard": true,
+    "text": "₤",
+    "function": false
+  },
+  "textlnot": {
+    "args": "",
+    "discard": true,
+    "text": "¬",
+    "function": false
+  },
+  "textmd": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "textmho": {
+    "args": "",
+    "discard": true,
+    "text": "℧",
+    "function": false
+  },
+  "textmp": {
+    "args": "",
+    "discard": true,
+    "text": "∓",
+    "function": false
+  },
+  "textmu": {
+    "args": "",
+    "discard": true,
+    "text": "µ",
+    "function": false
+  },
+  "textmusicalnote": {
+    "args": "",
+    "discard": true,
+    "text": "♪",
+    "function": false
+  },
+  "textnaira": {
+    "args": "",
+    "discard": true,
+    "text": "₦",
+    "function": false
+  },
+  "textnrleg": {
+    "args": "",
+    "discard": true,
+    "text": "ƞ",
+    "function": false
+  },
+  "textnumero": {
+    "args": "",
+    "discard": true,
+    "text": "№",
+    "function": false
+  },
+  "textohm": {
+    "args": "",
+    "discard": true,
+    "text": "Ω",
+    "function": false
+  },
+  "textonehalf": {
+    "args": "",
+    "discard": true,
+    "text": "½",
+    "function": false
+  },
+  "textonequarter": {
+    "args": "",
+    "discard": true,
+    "text": "¼",
+    "function": false
+  },
+  "textonesuperior": {
+    "args": "",
+    "discard": true,
+    "text": "¹",
+    "function": false
+  },
+  "textopenbullet": {
+    "args": "",
+    "discard": true,
+    "text": "◦",
+    "function": false
+  },
+  "textordfeminine": {
+    "args": "",
+    "discard": true,
+    "text": "ª",
+    "function": false
+  },
+  "textordmasculine": {
+    "args": "",
+    "discard": true,
+    "text": "º",
+    "function": false
+  },
+  "textparagraph": {
+    "args": "",
+    "discard": true,
+    "text": "¶",
+    "function": false
+  },
+  "textperiodcentered": {
+    "args": "",
+    "discard": true,
+    "text": "˙",
+    "function": false
+  },
+  "textpertenthousand": {
+    "args": "",
+    "discard": true,
+    "text": "‱",
+    "function": false
+  },
+  "textperthousand": {
+    "args": "",
+    "discard": true,
+    "text": "‰",
+    "function": false
+  },
+  "textpeso": {
+    "args": "",
+    "discard": true,
+    "text": "₱",
+    "function": false
+  },
+  "textphi": {
+    "args": "",
+    "discard": true,
+    "text": "ɸ",
+    "function": false
+  },
+  "textpm": {
+    "args": "",
+    "discard": true,
+    "text": "±",
+    "function": false
+  },
+  "textquestiondown": {
+    "args": "",
+    "discard": true,
+    "text": "¿",
+    "function": false
+  },
+  "textquotedblleft": {
+    "args": "",
+    "discard": true,
+    "text": "“",
+    "function": false
+  },
+  "textquotedblright": {
+    "args": "",
+    "discard": true,
+    "text": "”",
+    "function": false
+  },
+  "textquoteleft": {
+    "args": "",
+    "discard": true,
+    "text": "‘",
+    "function": false
+  },
+  "textquoteright": {
+    "args": "",
+    "discard": true,
+    "text": "’",
+    "function": false
+  },
+  "textquotesingle": {
+    "args": "",
+    "discard": true,
+    "text": "'",
+    "function": false
+  },
+  "textrangle": {
+    "args": "",
+    "discard": true,
+    "text": "〉",
+    "function": false
+  },
+  "textrecipe": {
+    "args": "",
+    "discard": true,
+    "text": "℞",
+    "function": false
+  },
+  "textreferencemark": {
+    "args": "",
+    "discard": true,
+    "text": "※",
+    "function": false
+  },
+  "textregistered": {
+    "args": "",
+    "discard": true,
+    "text": "®",
+    "function": false
+  },
+  "textrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "→",
+    "function": false
+  },
+  "textrm": {
+    "args": "{",
+    "discard": false,
+    "text": null,
+    "function": false
+  },
+  "textsc": {
+    "args": "{",
+    "discard": false,
+    "text": null,
+    "function": false
+  },
+  "textschwa": {
+    "args": "",
+    "discard": true,
+    "text": "ə",
+    "function": false
+  },
+  "textsection": {
+    "args": "",
+    "discard": true,
+    "text": "§",
+    "function": false
+  },
+  "textservicemark": {
+    "args": "",
+    "discard": true,
+    "text": "℠",
+    "function": false
+  },
+  "textsf": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "textsl": {
+    "args": "{",
+    "discard": false,
+    "text": null,
+    "function": false
+  },
+  "textsterling": {
+    "args": "",
+    "discard": true,
+    "text": "£",
+    "function": false
+  },
+  "texttheta": {
+    "args": "",
+    "discard": true,
+    "text": "θ",
+    "function": false
+  },
+  "textthreequarters": {
+    "args": "",
+    "discard": true,
+    "text": "¾",
+    "function": false
+  },
+  "textthreesuperior": {
+    "args": "",
+    "discard": true,
+    "text": "³",
+    "function": false
+  },
+  "texttildelow": {
+    "args": "",
+    "discard": true,
+    "text": "˜",
+    "function": false
+  },
+  "texttimes": {
+    "args": "",
+    "discard": true,
+    "text": "×",
+    "function": false
+  },
+  "texttrademark": {
+    "args": "",
+    "discard": true,
+    "text": "™",
+    "function": false
+  },
+  "texttt": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "textturnk": {
+    "args": "",
+    "discard": true,
+    "text": "ʞ",
+    "function": false
+  },
+  "texttwosuperior": {
+    "args": "",
+    "discard": true,
+    "text": "²",
+    "function": false
+  },
+  "textup": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "textuparrow": {
+    "args": "",
+    "discard": true,
+    "text": "↑",
+    "function": false
+  },
+  "textvartheta": {
+    "args": "",
+    "discard": true,
+    "text": "ϑ",
+    "function": false
+  },
+  "textvisiblespace": {
+    "args": "",
+    "discard": true,
+    "text": "␣",
+    "function": false
+  },
+  "textwon": {
+    "args": "",
+    "discard": true,
+    "text": "₩",
+    "function": false
+  },
+  "textyen": {
+    "args": "",
+    "discard": true,
+    "text": "¥",
+    "function": false
+  },
+  "th": {
+    "args": "",
+    "discard": true,
+    "text": "þ",
+    "function": false
+  },
+  "therefore": {
+    "args": "",
+    "discard": true,
+    "text": "∴",
+    "function": false
+  },
+  "theta": {
+    "args": "",
+    "discard": true,
+    "text": "θ",
+    "function": false
+  },
+  "tilde": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "tildetrpl": {
+    "args": "",
+    "discard": true,
+    "text": "≋",
+    "function": false
+  },
+  "times": {
+    "args": "",
+    "discard": true,
+    "text": "×",
+    "function": false
+  },
+  "title": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "to": {
+    "args": "",
+    "discard": true,
+    "text": "→",
+    "function": false
+  },
+  "today": {
+    "args": "",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "top": {
+    "args": "",
+    "discard": true,
+    "text": "⊤",
+    "function": false
+  },
+  "triangledown": {
+    "args": "",
+    "discard": true,
+    "text": "▿",
+    "function": false
+  },
+  "triangleleft": {
+    "args": "",
+    "discard": true,
+    "text": "◃",
+    "function": false
+  },
+  "trianglelefteq": {
+    "args": "",
+    "discard": true,
+    "text": "⊴",
+    "function": false
+  },
+  "triangleq": {
+    "args": "",
+    "discard": true,
+    "text": "≜",
+    "function": false
+  },
+  "triangleright": {
+    "args": "",
+    "discard": true,
+    "text": "▹",
+    "function": false
+  },
+  "trianglerighteq": {
+    "args": "",
+    "discard": true,
+    "text": "⊵",
+    "function": false
+  },
+  "truestate": {
+    "args": "",
+    "discard": true,
+    "text": "⊧",
+    "function": false
+  },
+  "twoheadleftarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↞",
+    "function": false
+  },
+  "twoheadrightarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↠",
+    "function": false
+  },
+  "u": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "udots": {
+    "args": "",
+    "discard": true,
+    "text": "⋰",
+    "function": false
+  },
+  "uebung": {
+    "args": "{[",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "ulcorner": {
+    "args": "",
+    "discard": true,
+    "text": "⌜",
+    "function": false
+  },
+  "uline": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "underbrace": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "underbracket": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "undergroup": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "underleftarrow": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "underleftrightarrow": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "underline": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "underlinesegment": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "underrightarrow": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "uparrow": {
+    "args": "",
+    "discard": true,
+    "text": "↑",
+    "function": false
+  },
+  "updownarrow": {
+    "args": "",
+    "discard": true,
+    "text": "↕",
+    "function": false
+  },
+  "upharpoonleft": {
+    "args": "",
+    "discard": true,
+    "text": "↿",
+    "function": false
+  },
+  "upharpoonright": {
+    "args": "",
+    "discard": true,
+    "text": "↾",
+    "function": false
+  },
+  "uplus": {
+    "args": "",
+    "discard": true,
+    "text": "⊎",
+    "function": false
+  },
+  "upsilon": {
+    "args": "",
+    "discard": true,
+    "text": "υ",
+    "function": false
+  },
+  "upslopeellipsis": {
+    "args": "",
+    "discard": true,
+    "text": "⋰",
+    "function": false
+  },
+  "upuparrows": {
+    "args": "",
+    "discard": true,
+    "text": "⇈",
+    "function": false
+  },
+  "uranus": {
+    "args": "",
+    "discard": true,
+    "text": "♅",
+    "function": false
+  },
+  "urcorner": {
+    "args": "",
+    "discard": true,
+    "text": "⌝",
+    "function": false
+  },
+  "url": {
+    "args": "{",
+    "discard": true,
+    "text": "<%s>",
+    "function": false
+  },
+  "usepackage": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "v": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "varepsilon": {
+    "args": "",
+    "discard": true,
+    "text": "ε",
+    "function": false
+  },
+  "varkappa": {
+    "args": "",
+    "discard": true,
+    "text": "ϰ",
+    "function": false
+  },
+  "varnothing": {
+    "args": "",
+    "discard": true,
+    "text": "∅",
+    "function": false
+  },
+  "varperspcorrespond": {
+    "args": "",
+    "discard": true,
+    "text": "⌆",
+    "function": false
+  },
+  "varphi": {
+    "args": "",
+    "discard": true,
+    "text": "φ",
+    "function": false
+  },
+  "varpi": {
+    "args": "",
+    "discard": true,
+    "text": "ϖ",
+    "function": false
+  },
+  "varrho": {
+    "args": "",
+    "discard": true,
+    "text": "ϱ",
+    "function": false
+  },
+  "varsigma": {
+    "args": "",
+    "discard": true,
+    "text": "ς",
+    "function": false
+  },
+  "vartheta": {
+    "args": "",
+    "discard": true,
+    "text": "ϑ",
+    "function": false
+  },
+  "vartriangle": {
+    "args": "",
+    "discard": true,
+    "text": "▵",
+    "function": false
+  },
+  "vartriangleleft": {
+    "args": "",
+    "discard": true,
+    "text": "⊲",
+    "function": false
+  },
+  "vartriangleright": {
+    "args": "",
+    "discard": true,
+    "text": "⊳",
+    "function": false
+  },
+  "vdash": {
+    "args": "",
+    "discard": true,
+    "text": "⊢",
+    "function": false
+  },
+  "vdots": {
+    "args": "",
+    "discard": true,
+    "text": "⋮",
+    "function": false
+  },
+  "vec": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  },
+  "vee": {
+    "args": "",
+    "discard": true,
+    "text": "∨",
+    "function": false
+  },
+  "veebar": {
+    "args": "",
+    "discard": true,
+    "text": "⊻",
+    "function": false
+  },
+  "venus": {
+    "args": "",
+    "discard": true,
+    "text": "♀",
+    "function": false
+  },
+  "verb": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "vert": {
+    "args": "",
+    "discard": true,
+    "text": "|",
+    "function": false
+  },
+  "verymuchgreater": {
+    "args": "",
+    "discard": true,
+    "text": "⋙",
+    "function": false
+  },
+  "verymuchless": {
+    "args": "",
+    "discard": true,
+    "text": "⋘",
+    "function": false
+  },
+  "virgo": {
+    "args": "",
+    "discard": true,
+    "text": "♍",
+    "function": false
+  },
+  "volintegral": {
+    "args": "",
+    "discard": true,
+    "text": "∰",
+    "function": false
+  },
+  "vphantom": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "vspace": {
+    "args": "*{",
+    "discard": true,
+    "text": "\n",
+    "function": false
+  },
+  "wedge": {
+    "args": "",
+    "discard": true,
+    "text": "∧",
+    "function": false
+  },
+  "widehat": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "wideparen": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "widetilde": {
+    "args": "{",
+    "discard": true,
+    "text": "%s",
+    "function": false
+  },
+  "wp": {
+    "args": "",
+    "discard": true,
+    "text": "℘",
+    "function": false
+  },
+  "wr": {
+    "args": "",
+    "discard": true,
+    "text": "≀",
+    "function": false
+  },
+  "xi": {
+    "args": "",
+    "discard": true,
+    "text": "ξ",
+    "function": false
+  },
+  "xleftarrow": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "xrightarrow": {
+    "args": "[{",
+    "discard": true,
+    "text": null,
+    "function": false
+  },
+  "zeta": {
+    "args": "",
+    "discard": true,
+    "text": "ζ",
+    "function": false
+  },
+  "{": {
+    "args": "",
+    "discard": true,
+    "text": "{",
+    "function": false
+  },
+  "}": {
+    "args": "",
+    "discard": true,
+    "text": "}",
+    "function": false
+  },
+  "~": {
+    "args": "{",
+    "discard": true,
+    "text": null,
+    "function": true
+  }
+}
