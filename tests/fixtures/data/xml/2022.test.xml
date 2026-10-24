@@ -1,0 +1,29 @@
+<collection id="2022.test">
+  <volume id="long" type="proceedings" ingest-date="2023-01-02">
+    <meta>
+      <booktitle>Proceedings of <fixed-case>Test</fixed-case></booktitle>
+      <shortbooktitle>Test 2022</shortbooktitle>
+      <editor id="jane-doe"><first>Jane</first><last>Doe</last></editor>
+      <publisher>Example Press</publisher><address>Tokyo</address><month>May</month><year>2022</year><isbn>123-4</isbn>
+      <pdf hash="01234567"/><url type="external">https://example.org/book</url><doi>10.example/book</doi>
+      <sig>sigtest</sig><venue>test</venue><journal-volume>4</journal-volume><journal-issue>2</journal-issue><journal-title>Test Journal</journal-title>
+    </meta>
+    <frontmatter><pdf hash="12345678"/><url>https://example.org/front</url><pages>i–x</pages><bibkey>test-2022-front</bibkey><revision id="1" date="2023-01-03" hash="abcdef01">Fixed</revision><attachment type="data" hash="abcdef02">front.zip</attachment><doi>10.example/front</doi></frontmatter>
+    <paper id="1" type="paper" ingest-date="2023-02-03">
+      <title>A <b>bold <i>nested</i></b> <u>underlined</u> <sc>small</sc> <tt>code</tt> <fixed-case>NLP</fixed-case> &amp; <a href="https://example.org">link</a> <url>https://example.org/x</url> <tex-math>x^2</tex-math></title>
+      <abstract>First &lt;paragraph&gt;.<par/>Second <b>nested</b> paragraph.</abstract>
+      <author id="jane-doe" orcid="0000-0002-1825-0097" openreview="~Jane_Doe1"><first>Jane</first><last>Doe</last><variant script="Han"><first>花</first><last>山田</last></variant><affiliation>Example University</affiliation></author>
+      <author><first></first><last>Unresolved</last></author>
+      <editor><last>Editor</last></editor><bibkey>doe-2022-test</bibkey><doi>10.example/test</doi><pages>1–10</pages><issue>3</issue><journal>Override Journal</journal><language>en</language><month>June</month><note></note>
+      <mrf src="legacy">reference</mrf><pdf hash="abcdef03"/><url type="external">https://example.org/paper</url><url>https://example.org/alternate</url>
+      <attachment type="software" hash="abcdef04">code.zip</attachment>
+      <revision id="1" date="2023-03-04" hash="abcdef05">Revised text</revision><revision id="2" hash="abcdef06">Again</revision>
+      <erratum id="1" date="2023-04-05" hash="abcdef07"/>
+      <retracted date="2023-05-06">Retraction text</retracted><removed date="2023-06-07">Removal text</removed>
+      <video href="https://example.org/video" permission="false"/><video href="https://example.org/second"/>
+      <award name="best">Best paper</award>
+    </paper>
+    <paper id="2"><title>Inherited</title><bibkey>test-2022-inherited</bibkey></paper>
+  </volume>
+  <event id="test-2022"><meta><title>Test <i>event</i></title><location>Tokyo</location><dates>May 1–2</dates></meta><links><url type="homepage">https://example.org</url></links><talk type="keynote"><title>Keynote</title><speaker id="jane-doe"><first>Jane</first><last>Doe</last></speaker><url>https://example.org/talk</url></talk><colocated><volume-id>2022.test-long</volume-id></colocated></event>
+</collection>
