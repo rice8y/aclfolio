@@ -1,0 +1,5 @@
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text">
+  <info><title>Parity test</title><id>https://example.org/parity</id><updated>2026-01-01T00:00:00+00:00</updated></info>
+  <citation><layout><text variable="title"/></layout></citation>
+  <bibliography><layout delimiter=". " suffix="."><names variable="author"><name and="text" delimiter=", " name-as-sort-order="all"/></names><date variable="issued"><date-part name="year"/></date><text variable="title"/><text variable="container-title" font-style="italic"/><text variable="publisher"/></layout></bibliography>
+</style>
