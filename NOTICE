@@ -1,0 +1,157 @@
+aclfolio
+Copyright (c) 2026 Eito Yoneyama
+
+Original project contributions and the combined crate are distributed under
+the GNU General Public License, version 3 or (at your option) any later
+version (GPL-3.0-or-later). See LICENSE for the terms and warranty disclaimer.
+
+This file identifies third-party code and data included in the distribution.
+Their original notices and license terms are retained as described below.
+These attributions do not modify those terms.
+
+
+ACL Anthology — Python library 1.3.4 and metadata schema
+------------------------------------------------------
+Source: https://github.com/acl-org/acl-anthology
+Revision: e9b28ecee27696ac39bf02882b4c552488cee8fe
+Copyright 2019-2026 Marcel Bollmann <marcel@bollmann.me>
+Copyright 2022 Matt Post <post@cs.jhu.edu>
+License: Apache-2.0; full text in LICENSE-APACHE.
+
+Includes adaptations of metadata parsing, navigation, person resolution,
+citation-key generation, text conversion and citation export algorithms in
+src/, together with data/schema.rnc and data/schema.json. The algorithms
+were translated to Rust and adapted to immutable snapshots and explicit
+error handling. The RNC schema is retained; schema.json is a derived
+representation used by the Rust validator.
+
+
+Unidecode 1.4.0
+---------------
+Source: https://github.com/avian2/unidecode/tree/unidecode-1.4.0
+Original character transliteration tables:
+Copyright 2001, Sean M. Burke <sburke@cpan.org>, all rights reserved.
+Python code and later additions:
+Copyright 2025, Tomaž Šolc <tomaz.solc@tablix.org>
+License: GPL-2.0-or-later; full text in data/licenses/Unidecode.txt.
+
+data/unidecode.json contains nonempty transliterations of Unicode scalar
+values exported from this release for use by the Rust implementation.
+
+
+pylatexenc 2.11
+---------------
+Source: https://github.com/phfaist/pylatexenc
+Copyright (c) 2015-2019 Philippe Faist
+License: MIT; full notice in data/licenses/pylatexenc.txt.
+
+data/latex-encode.json, data/latex-macros.json and data/math-fonts.json
+contain mappings and macro metadata derived from pylatexenc and the
+ACL Anthology LaTeX configuration. Callable conversion rules are adapted
+in the Rust LaTeX parser and text conversion code.
+
+
+python-slugify 9.1.3
+--------------------
+Source: https://github.com/un33k/python-slugify
+Copyright (c) Val Neekman @ Neekware Inc. http://neekware.com
+License: MIT; full notice in data/licenses/python-slugify.txt.
+
+The slug generation algorithm is adapted in src/names.rs for person
+identifiers and citation keys.
+
+
+stop-words 2018.7.23
+--------------------
+Source: https://github.com/Alir3z4/python-stop-words
+Copyright (c) 2014, Alireza Savand, Contributors. All rights reserved.
+License: BSD-3-Clause; full notice in data/licenses/stop-words.txt.
+
+data/stopwords.json contains the English word list used by ACL Anthology,
+exported as a sorted JSON array.
+
+
+Unicode-to-LaTeX mathematical symbol mappings
+--------------------------------------------
+Source: data/unimathsymbols.txt, as shipped with the ACL Anthology revision
+identified above; last revised 2011-11-08.
+Copyright © 2011 Günter Milde
+License: LaTeX Project Public License, version 1.3 or later.
+Terms: https://www.latex-project.org/lppl.txt
+
+data/unimathsymbols.txt retains the original source and notice.
+data/math-symbols.json is derived using ACL Anthology's command selection
+rules; it is a separate file and does not replace the original mapping.
+
+
+citeproc-py 0.11.1
+------------------
+Source: https://github.com/citeproc-py/citeproc-py
+Copyright 2011-2013 Brecht Machiels. All rights reserved.
+License: BSD-2-Clause; full notice in data/licenses/citeproc-py.txt.
+
+src/csl/ adapts the rendering algorithms to Rust, using native style
+parsing and bundled locale data.
+
+
+Citation Style Language locale data
+-----------------------------------
+Source: https://github.com/citation-style-language/locales
+Version: locale files bundled with citeproc-py 0.11.1.
+Attribution: individual authors and contributors are retained in each
+locale's info element in data/csl-locales.json.
+License: CC-BY-SA-3.0.
+Terms: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+data/csl-locales.json converts the XML locales to JSON and includes
+citeproc-py's primary-dialect mapping. Locale titles, contributor names,
+rights, dates and source identifiers are preserved. The locale data
+remains under CC-BY-SA-3.0.
+
+
+langcodes 3.5.1 and language-data 1.4.0
+-------------------------------------
+Sources: https://github.com/georgkrause/langcodes
+         https://github.com/georgkrause/language_data
+langcodes: Copyright (C) 2021 Robyn Speer (rspeer@arborelia.net)
+language-data: Copyright 2024 Robyn Speer
+License: MIT; full notices in data/licenses/langcodes.txt and
+data/licenses/language-data.txt, respectively.
+
+data/languages.json contains exported language names, aliases, default
+scripts and tag exceptions. src/languages.rs adapts the lookup and
+normalization behavior to Rust.
+
+
+Python and Unicode data
+-----------------------
+Sources: Python 3.13 standard library; Unicode Character Database 15.1.0.
+         https://www.python.org/
+         https://www.unicode.org/versions/Unicode15.1.0/
+Copyright (c) 2001-2024 Python Software Foundation; All Rights Reserved.
+Unicode data: Unicode, Inc.; https://www.unicode.org/license.txt
+Python license and historical notices: data/licenses/Python.txt.
+
+data/html-entities.json exports Python's HTML entity-name table.
+src/unicode_tables.rs contains generated Unicode decomposition and
+nonspacing-mark tables. Python is used to generate these files and is
+not bundled as a runtime dependency.
+
+
+Citation Style Language test fixtures
+-------------------------------------
+Source: Hayagriva 0.8.1's bundled style archive.
+        https://github.com/typst/hayagriva/tree/v0.8.1
+Files: tests/fixtures/csl/archive/*.csl
+Attribution: author names, source links and rights are retained in each
+style's info element.
+
+The styles are licensed under CC-BY-SA-3.0, except alphanumeric.csl,
+which is offered under MIT OR Apache-2.0 and is included under MIT
+(data/licenses/hayagriva.txt). Its authors are Martin Haug and
+Laurenz Mädje. CC-BY-SA-3.0 terms:
+https://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+The exported styles normalize XML spelling; some files add the CSL
+namespace or correct locale xml:lang attributes. These fixtures are
+used for tests and are not bundled into the runtime renderer.
