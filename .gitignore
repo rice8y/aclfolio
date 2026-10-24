@@ -1,0 +1,42 @@
+# Downloaded references, exports, build products, and generated reports.
+/artifacts/
+/target/
+/reports/
+/coverage/
+*.profraw
+*.profdata
+
+# Local performance measurement and differential checks.
+/scripts/benchmark.py
+/scripts/parity*.py
+/scripts/check-fixtures.py
+/scripts/compatibility.py
+/scripts/run-compatibility.py
+/scripts/test_compatibility_runner.py
+
+# Python development environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Machine-local configuration and editor files.
+.env
+.env.*
+!.env.example
+!.env.template
+.idea/
+.vscode/
+.DS_Store
+._*
+*.swp
+*.swo
+*~
+*.rs.bk
+/*.log

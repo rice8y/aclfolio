@@ -1,0 +1,78 @@
+[package]
+name = "aclfolio"
+version = "0.1.0"
+authors = ["Eito Yoneyama"]
+edition = "2024"
+rust-version = "1.85"
+description = "Unofficial offline, read-only Rust interface to ACL Anthology metadata"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/rice8y/aclfolio"
+keywords = ["acl", "anthology", "metadata", "nlp"]
+categories = ["parser-implementations", "science"]
+# Also exclude local resources when packaging outside a Git checkout.
+# Keep these patterns in sync with .gitignore.
+exclude = [
+    "/artifacts/",
+    "/target/",
+    "/reports/",
+    "/coverage/",
+    "*.profraw",
+    "*.profdata",
+    "/scripts/benchmark.py",
+    "/scripts/parity*.py",
+    "/scripts/check-fixtures.py",
+    "/scripts/compatibility.py",
+    "/scripts/run-compatibility.py",
+    "/scripts/test_compatibility_runner.py",
+    ".venv/",
+    "venv/",
+    "__pycache__/",
+    "*.py[cod]",
+    ".pytest_cache/",
+    ".mypy_cache/",
+    ".ruff_cache/",
+    ".coverage",
+    ".coverage.*",
+    "htmlcov/",
+    ".env",
+    ".env.*",
+    "!.env.example",
+    "!.env.template",
+    ".idea/",
+    ".vscode/",
+    ".DS_Store",
+    "._*",
+    "*.swp",
+    "*.swo",
+    "*~",
+    "*.rs.bk",
+    "/*.log",
+]
+
+[lib]
+name = "aclfolio"
+
+[dependencies]
+roxmltree = "0.21"
+serde = { version = "1", features = ["derive", "rc"] }
+serde_json = "1"
+sha2 = "0.10"
+thiserror = "2"
+crc32fast = "1.5"
+unicode-normalization = "0.1"
+regex = "1"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+reqwest = { version = "0.12", optional = true, default-features = false, features = ["blocking", "rustls-tls"] }
+
+[features]
+default = []
+network = ["dep:reqwest"]
+git = []
+
+[dev-dependencies]
+tempfile = "3"
+proptest = "1"
+
+[[bench]]
+name = "snapshot"
+harness = false
